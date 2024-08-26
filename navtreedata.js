@@ -24,7 +24,8 @@
 */
 var NAVTREE =
 [
-  [ "sparkmax-can", "index.html", [
+  [ "My Project", "index.html", [
+    [ "sparkmax-can", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
