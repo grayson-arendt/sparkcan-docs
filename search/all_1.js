@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['appliedoutput_1',['AppliedOutput',['../SparkMax_8hpp.html#afa545a686dd151863cc7f8224d87fa13a09e3d9177c426455071923e40334f67a',1,'SparkMax.hpp']]],
-  ['architecture_5fid_2',['ARCHITECTURE_ID',['../CMakeCXXCompilerId_8cpp.html#aba35d0d200deaeb06aee95ca297acb28',1,'CMakeCXXCompilerId.cpp']]]
+  ['sparkmax_2dcan_1',['sparkmax-can',['../index.html',1,'']]]
 ];
