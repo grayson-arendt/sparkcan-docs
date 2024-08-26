@@ -25,7 +25,6 @@
 var NAVTREE =
 [
   [ "sparkmax-can", "index.html", [
-    [ "sparkmax-can", "md__home_grayson_sparkmax_can_README.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

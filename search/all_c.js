@@ -89,7 +89,7 @@ var searchData=
   ['smartmotion_145',['SmartMotion',['../SparkMax_8hpp.html#afa545a686dd151863cc7f8224d87fa13aab526c1cf88aa12f441bc361447964e8',1,'SparkMax.hpp']]],
   ['smartvelocity_146',['SmartVelocity',['../SparkMax_8hpp.html#afa545a686dd151863cc7f8224d87fa13a2aad0482b8542e0787d95981fdc26ae7',1,'SparkMax.hpp']]],
   ['sparkmax_147',['SparkMax',['../classSparkMax.html#a9496bfb0cf08a52c8982d352c6411c1f',1,'SparkMax::SparkMax()'],['../classSparkMax.html',1,'SparkMax']]],
-  ['sparkmax_2dcan_148',['sparkmax-can',['../md__home_grayson_sparkmax_can_README.html',1,'']]],
+  ['sparkmax_2dcan_148',['sparkmax-can',['../index.html',1,'']]],
   ['sparkmax_2ecpp_149',['SparkMax.cpp',['../SparkMax_8cpp.html',1,'']]],
   ['sparkmax_2ecpp_2eo_2ed_150',['SparkMax.cpp.o.d',['../SparkMax_8cpp_8o_8d.html',1,'']]],
   ['sparkmax_2ehpp_151',['SparkMax.hpp',['../SparkMax_8hpp.html',1,'']]],
