@@ -1,6 +1,6 @@
 var classSparkMax =
 [
-    [ "SparkMax", "classSparkMax.html#a9496bfb0cf08a52c8982d352c6411c1f", null ],
+    [ "SparkMax", "classSparkMax.html#a7d10ea90599e2be6a92334ef4a786797", null ],
     [ "~SparkMax", "classSparkMax.html#a0da58680ad38d18680176fc370c7f152", null ],
     [ "clearStickyFaults", "classSparkMax.html#a26533eb0edbbabdfa9a5c216a1329453", null ],
     [ "configBurnFlash", "classSparkMax.html#ab6526942b9a8d45f8096ad11d4c88c02", null ],
@@ -53,7 +53,7 @@ var classSparkMax =
     [ "setDutyCycleAverageDepth", "classSparkMax.html#a41b1c9a764d5f8576333242c7b8b857d", null ],
     [ "setDutyCycleInverted", "classSparkMax.html#a9bccf2b4ef9d98decd38e036789c5090", null ],
     [ "setDutyCyclePositionFactor", "classSparkMax.html#a29a322ee4442573febf1ea6a240c0066", null ],
-    [ "setDutyCyclePrescaler", "classSparkMax.html#a0c41e84f15f1e6d48b714222056cd54b", null ],
+    [ "setDutyCyclePrescalar", "classSparkMax.html#af9b19033fd81458184c8784e75e8d6d7", null ],
     [ "setDutyCycleVelocityFactor", "classSparkMax.html#ab904fbc85a42646c55a10293064f2ba6", null ],
     [ "setDutyCycleZeroOffset", "classSparkMax.html#a4b44438d8e371f0bda92da22ffdbffd2", null ],
     [ "setEncoderAverageDepth", "classSparkMax.html#a0f4cf767efb6926839c5467357c652d1", null ],

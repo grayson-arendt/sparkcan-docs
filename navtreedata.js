@@ -47,7 +47,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"SparkMax_8cpp.html"
+"SparkMax_8cpp.html",
+"classSparkMax.html#ac676f2ca63855c1746e38be85a9ad8b7"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
