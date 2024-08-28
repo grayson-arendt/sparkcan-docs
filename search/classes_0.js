@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['sparkmax_277',['SparkMax',['../classSparkMax.html',1,'']]]
+  ['sparkflex_283',['SparkFlex',['../classSparkFlex.html',1,'']]],
+  ['sparkmax_284',['SparkMax',['../classSparkMax.html',1,'']]]
 ];

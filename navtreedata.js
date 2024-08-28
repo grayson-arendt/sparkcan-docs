@@ -24,14 +24,14 @@
 */
 var NAVTREE =
 [
-  [ "sparkmax-can Documentation", "index.html", [
-    [ "sparkmax-can", "index.html", null ],
+  [ "spark-can Documentation", "index.html", [
+    [ "spark-can", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -39,7 +39,8 @@ var NAVTREE =
       [ "File Members", "globals.html", [
         [ "All", "globals.html", null ],
         [ "Variables", "globals_vars.html", null ],
-        [ "Enumerations", "globals_enum.html", null ]
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
   ] ]
@@ -47,8 +48,10 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"SparkMax_8cpp.html",
-"classSparkMax.html#ac676f2ca63855c1746e38be85a9ad8b7"
+"SparkFlex_8cpp.html",
+"SparkFlex_8hpp.html#accc23407f22cadf3bd72108095661f99acf67705fa8e374768350f908e4c244d1",
+"SparkMax_8hpp.html#accc23407f22cadf3bd72108095661f99a943618b6d9b1a9872ff1ccbac009a18d",
+"classSparkFlex.html#af406a4c3b0abe486882809939ebea0a3"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
