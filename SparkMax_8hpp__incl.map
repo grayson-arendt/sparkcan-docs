@@ -1,6 +1,6 @@
-<map id="/home/grayson/sparkcan/include/spark_max.hpp" name="/home/grayson/sparkcan/include/spark_max.hpp">
-<area shape="rect" id="node1" title=" " alt="" coords="619,5,802,47"/>
-<area shape="rect" id="node2" href="$spark__base_8hpp.html" title="Source file for the SPARK MAX and SPARK Flex motor controller interface." alt="" coords="649,95,773,121"/>
+<map id="/home/grayson/sparkcan/include/SparkMax.hpp" name="/home/grayson/sparkcan/include/SparkMax.hpp">
+<area shape="rect" id="node1" title="Source file for the SPARK MAX motor controller interface." alt="" coords="619,5,802,47"/>
+<area shape="rect" id="node2" href="$SparkBase_8hpp.html" title="Source file for the SPARK MAX and SPARK Flex motor controller interface." alt="" coords="651,95,770,121"/>
 <area shape="rect" id="node3" title=" " alt="" coords="5,169,99,196"/>
 <area shape="rect" id="node4" title=" " alt="" coords="123,169,189,196"/>
 <area shape="rect" id="node5" title=" " alt="" coords="213,169,301,196"/>

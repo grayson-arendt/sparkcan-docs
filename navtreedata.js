@@ -49,8 +49,8 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"spark__base_8hpp.html#accc23407f22cadf3bd72108095661f99aae4130de2c7111e37cc7ce9721a915ae"
+"SparkBase_8cpp.html",
+"classSparkBase.html#ab1a1cff044439ef2c09dffc0ba9d54d4"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
