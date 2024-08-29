@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('classSparkBase.html',''); initResizabl
 </div><!--header-->
 <div class="contents">
 
-<p>A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus.  
+<p>A base class for controlling REV Robotics SPARK motor controllers via CAN bus.  
  <a href="classSparkBase.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="SparkBase_8hpp_source.html">SparkBase.hpp</a>&gt;</code></p>
@@ -99,19 +99,19 @@ Inheritance diagram for SparkBase:</div>
 <div class="dyncontent">
 <div class="center"><img src="classSparkBase__inherit__graph.png" border="0" usemap="#aSparkBase_inherit__map" alt="Inheritance graph"/></div>
 <map name="aSparkBase_inherit__map" id="aSparkBase_inherit__map">
-<area shape="rect" title="A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus." alt="" coords="58,5,149,32"/>
-<area shape="rect" href="classSparkFlex.html" title=" " alt="" coords="5,80,92,107"/>
-<area shape="rect" href="classSparkMax.html" title=" " alt="" coords="116,80,203,107"/>
+<area shape="rect" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus." alt="" coords="58,5,149,32"/>
+<area shape="rect" href="classSparkFlex.html" title="A class for controlling REV Robotics SPARK Flex via CAN bus." alt="" coords="5,80,92,107"/>
+<area shape="rect" href="classSparkMax.html" title="A class for controlling REV Robotics SPARK MAX via CAN bus." alt="" coords="116,80,203,107"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ae85a0064588d3cf383ae7384ea81e58e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ae85a0064588d3cf383ae7384ea81e58e">SparkBase</a> (const std::string &amp;interfaceName, uint8_t deviceId)</td></tr>
-<tr class="memdesc:ae85a0064588d3cf383ae7384ea81e58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes <a class="el" href="classSparkBase.html" title="A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a> with the specified CAN interface and ID.  <a href="classSparkBase.html#ae85a0064588d3cf383ae7384ea81e58e">More...</a><br /></td></tr>
+<tr class="memdesc:ae85a0064588d3cf383ae7384ea81e58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a> with the specified CAN interface and ID.  <a href="classSparkBase.html#ae85a0064588d3cf383ae7384ea81e58e">More...</a><br /></td></tr>
 <tr class="separator:ae85a0064588d3cf383ae7384ea81e58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a166d0eecac49ff43ba258a06997fa961"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a166d0eecac49ff43ba258a06997fa961">~SparkBase</a> ()</td></tr>
-<tr class="memdesc:a166d0eecac49ff43ba258a06997fa961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for <a class="el" href="classSparkBase.html" title="A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>.  <a href="classSparkBase.html#a166d0eecac49ff43ba258a06997fa961">More...</a><br /></td></tr>
+<tr class="memdesc:a166d0eecac49ff43ba258a06997fa961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>.  <a href="classSparkBase.html#a166d0eecac49ff43ba258a06997fa961">More...</a><br /></td></tr>
 <tr class="separator:a166d0eecac49ff43ba258a06997fa961"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a367ea6cd4d09e10dbb483fe3b7ae2fc9">Heartbeat</a> ()</td></tr>
 <tr class="memdesc:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a heartbeat signal to keep the SPARK controller active.  <a href="classSparkBase.html#a367ea6cd4d09e10dbb483fe3b7ae2fc9">More...</a><br /></td></tr>
@@ -327,7 +327,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5d88c1ae39aa4160ef05c276b2089df4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the reverse soft limit.  <a href="classSparkBase.html#a5d88c1ae39aa4160ef05c276b2089df4">More...</a><br /></td></tr>
 <tr class="separator:a5d88c1ae39aa4160ef05c276b2089df4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a997f38f4b03a7d5928268b20607d8791"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a997f38f4b03a7d5928268b20607d8791">SetFollowerID</a> (uint32_t id)</td></tr>
-<tr class="memdesc:a997f38f4b03a7d5928268b20607d8791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the follower ID for this <a class="el" href="classSparkBase.html" title="A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>.  <a href="classSparkBase.html#a997f38f4b03a7d5928268b20607d8791">More...</a><br /></td></tr>
+<tr class="memdesc:a997f38f4b03a7d5928268b20607d8791"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the follower ID for this <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>.  <a href="classSparkBase.html#a997f38f4b03a7d5928268b20607d8791">More...</a><br /></td></tr>
 <tr class="separator:a997f38f4b03a7d5928268b20607d8791"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb6a45336454c8bcd7ffae2f10c4811a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#adb6a45336454c8bcd7ffae2f10c4811a">SetFollowerConfig</a> (uint32_t config)</td></tr>
 <tr class="memdesc:adb6a45336454c8bcd7ffae2f10c4811a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the follower configuration.  <a href="classSparkBase.html#adb6a45336454c8bcd7ffae2f10c4811a">More...</a><br /></td></tr>
@@ -445,7 +445,7 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aaa8e76c42b41b85213ea52c8fd3e0a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus. </p>
+<div class="textblock"><p>A base class for controlling REV Robotics SPARK motor controllers via CAN bus. </p>
 <p>This class provides methods to configure, control, and monitor SPARK motor controllers. It supports various control modes, parameter settings, and status readings. </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae85a0064588d3cf383ae7384ea81e58e"></a>
@@ -474,7 +474,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initializes <a class="el" href="classSparkBase.html" title="A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a> with the specified CAN interface and ID. </p>
+<p>Initializes <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a> with the specified CAN interface and ID. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">interfaceName</td><td>The name of the CAN interface (e.g., "can0") </td></tr>
@@ -507,7 +507,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Destructor for <a class="el" href="classSparkBase.html" title="A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>. </p>
+<p>Destructor for <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>. </p>
 <p>Closes the socket connection </p>
 
 </div>
@@ -2087,7 +2087,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the follower ID for this <a class="el" href="classSparkBase.html" title="A C++ interface for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>. </p>
+<p>Sets the follower ID for this <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">id</td><td>The CAN ID of the SPARK controller to follow </td></tr>

@@ -1,5 +1,5 @@
 <map id="/home/grayson/sparkcan/include/SparkBase.hpp" name="/home/grayson/sparkcan/include/SparkBase.hpp">
-<area shape="rect" id="node1" title="Source file for the SPARK MAX and SPARK Flex motor controller interface." alt="" coords="619,5,802,47"/>
+<area shape="rect" id="node1" title="Header file for the base class for controlling REV Robotics SPARK motor controllers." alt="" coords="619,5,802,47"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,95,99,121"/>
 <area shape="rect" id="node3" title=" " alt="" coords="123,95,189,121"/>
 <area shape="rect" id="node4" title=" " alt="" coords="213,95,301,121"/>
