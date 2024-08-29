@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['_7esparkcore_393',['~SparkCore',['../classSparkCore.html#a7079ba2325ecb2a0f37cd964e26ecca5',1,'SparkCore']]]
+  ['_7esparkbase_401',['~SparkBase',['../classSparkBase.html#a166d0eecac49ff43ba258a06997fa961',1,'SparkBase']]]
 ];

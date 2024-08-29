@@ -1,4 +1,6 @@
 var annotated_dup =
 [
-    [ "SparkCore", "classSparkCore.html", "classSparkCore" ]
+    [ "SparkBase", "classSparkBase.html", "classSparkBase" ],
+    [ "SparkFlex", "classSparkFlex.html", "classSparkFlex" ],
+    [ "SparkMax", "classSparkMax.html", "classSparkMax" ]
 ];
