@@ -1,19 +1,5 @@
 var searchData=
 [
-  ['getalternateencoderposition_9',['GetAlternateEncoderPosition',['../classSparkBase.html#acd60e9ec39a509eeb93c6506ef20c997',1,'SparkBase']]],
-  ['getalternateencodervelocity_10',['GetAlternateEncoderVelocity',['../classSparkBase.html#a22a80611cb3f8e8f837a9335a33e8106',1,'SparkBase']]],
-  ['getanalogposition_11',['GetAnalogPosition',['../classSparkBase.html#a02d863d575d07de2f8d26e587519b8e9',1,'SparkBase']]],
-  ['getanalogvelocity_12',['GetAnalogVelocity',['../classSparkBase.html#a67237489c766433e0f8008242a055816',1,'SparkBase']]],
-  ['getanalogvoltage_13',['GetAnalogVoltage',['../classSparkBase.html#a9c17958fbeb74fff6e52e147b6d9b2ae',1,'SparkBase']]],
-  ['getappliedoutput_14',['GetAppliedOutput',['../classSparkBase.html#a5f326d467902a2e38c2615485077657c',1,'SparkBase']]],
-  ['getcurrent_15',['GetCurrent',['../classSparkBase.html#a686ae6c94fdc8902d550507e3e9e9c90',1,'SparkBase']]],
-  ['getfaults_16',['GetFaults',['../classSparkBase.html#a9a4b2fd66aa143a3032870863c937ee8',1,'SparkBase']]],
-  ['getidlemode_17',['GetIdleMode',['../classSparkBase.html#a02d215f45f4b121a2d6d583cd7c956b6',1,'SparkBase']]],
-  ['getinvertbrakeisfollower_18',['GetInvertBrakeIsFollower',['../classSparkBase.html#a7344499af18ea1f476479f4445c15193',1,'SparkBase']]],
-  ['getinverted_19',['GetInverted',['../classSparkBase.html#a906b69943b91d66fd0ba3b318e378471',1,'SparkBase']]],
-  ['getposition_20',['GetPosition',['../classSparkBase.html#a0b94a203ad160200f20d7c31e771f379',1,'SparkBase']]],
-  ['getstickyfaults_21',['GetStickyFaults',['../classSparkBase.html#a85b67396735d6d41875683c84b80c618',1,'SparkBase']]],
-  ['gettemperature_22',['GetTemperature',['../classSparkBase.html#a4689816556b87343d6249047d5924d53',1,'SparkBase']]],
-  ['getvelocity_23',['GetVelocity',['../classSparkBase.html#af06ac40c37c301aeb4b1454d285a325c',1,'SparkBase']]],
-  ['getvoltage_24',['GetVoltage',['../classSparkBase.html#ae4ee731f4e2e503ac94aca6c60de3b9b',1,'SparkBase']]]
+  ['factorydefaults_8',['FactoryDefaults',['../SparkBase_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1cae8d0fe00091000284822d7216b46b6cf',1,'SparkBase.hpp']]],
+  ['factoryreset_9',['FactoryReset',['../SparkBase_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1cada337aa54bcb70265c71244f971157b9',1,'SparkBase.hpp']]]
 ];

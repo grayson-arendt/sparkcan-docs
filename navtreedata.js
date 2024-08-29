@@ -25,7 +25,7 @@
 var NAVTREE =
 [
   [ "sparkcan Documentation", "index.html", [
-    [ "sparkcan", "index.html", null ],
+    [ "Disclaimer", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],
