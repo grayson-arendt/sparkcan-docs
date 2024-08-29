@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['heartbeat_26',['heartbeat',['../classSparkFlex.html#a0a2476fa9f841f421444831c7479a662',1,'SparkFlex::heartbeat()'],['../classSparkMax.html#a0f45c28aade72c7753f9ccc50dbc8d1d',1,'SparkMax::heartbeat()']]]
+  ['heartbeat_25',['Heartbeat',['../classSparkBase.html#a367ea6cd4d09e10dbb483fe3b7ae2fc9',1,'SparkBase']]]
 ];

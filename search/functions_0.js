@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['clearstickyfaults_290',['clearStickyFaults',['../classSparkFlex.html#ab259dad8381fee51d0318d435e473286',1,'SparkFlex::clearStickyFaults()'],['../classSparkMax.html#a26533eb0edbbabdfa9a5c216a1329453',1,'SparkMax::clearStickyFaults()']]],
-  ['configburnflash_291',['configBurnFlash',['../classSparkFlex.html#a7a32a6c24c46566b78a1d51609f9c1a9',1,'SparkFlex::configBurnFlash()'],['../classSparkMax.html#ab6526942b9a8d45f8096ad11d4c88c02',1,'SparkMax::configBurnFlash()']]],
-  ['configfactorydefaults_292',['configFactoryDefaults',['../classSparkFlex.html#a141e17cf4c8af1ce94b01836281eb69e',1,'SparkFlex::configFactoryDefaults()'],['../classSparkMax.html#a64440d3fdab6a7c591d148afe3e4df05',1,'SparkMax::configFactoryDefaults()']]],
-  ['configfactoryreset_293',['configFactoryReset',['../classSparkFlex.html#a7a89fdb99a7d2195e6a73557208a1843',1,'SparkFlex::configFactoryReset()'],['../classSparkMax.html#ae4bd6ff35d280cb1722487ef9fbdf0b3',1,'SparkMax::configFactoryReset()']]]
+  ['clearstickyfaults_282',['ClearStickyFaults',['../classSparkBase.html#a69571d7b5c5a01f2bca9ee587cf54e76',1,'SparkBase']]],
+  ['configburnflash_283',['ConfigBurnFlash',['../classSparkBase.html#a9c19e3b9f3ad536ec6bbe248577d0f9e',1,'SparkBase']]],
+  ['configfactorydefaults_284',['ConfigFactoryDefaults',['../classSparkBase.html#a83ba37cd19c79a45541a82ec3473f004',1,'SparkBase']]],
+  ['configfactoryreset_285',['ConfigFactoryReset',['../classSparkBase.html#a6ec8bd48dd3175b6b04b4e6cf5089dae',1,'SparkBase']]]
 ];

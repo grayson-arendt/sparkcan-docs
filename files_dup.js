@@ -1,4 +1,4 @@
 var files_dup =
 [
-    [ "spark-can", "dir_a7d58d7997161ac37d2c8f91d5310ae5.html", "dir_a7d58d7997161ac37d2c8f91d5310ae5" ]
+    [ "sparkcan", "dir_65ed5d8df9d762229b7a590ffc44e46d.html", "dir_65ed5d8df9d762229b7a590ffc44e46d" ]
 ];
