@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['sparkflex_397',['SparkFlex',['../spark__base_8hpp.html#a45960153ddc5034a70e5af6b1fa88761',1,'spark_base.hpp']]],
-  ['sparkmax_398',['SparkMax',['../spark__base_8hpp.html#a430e0f2f6bff1097f326885c8d1ca0ab',1,'spark_base.hpp']]]
+  ['sparkflex_397',['SparkFlex',['../spark__core_8hpp.html#ac2977ce6cbc9f8c1c2746b57c97cb4b7',1,'spark_core.hpp']]],
+  ['sparkmax_398',['SparkMax',['../spark__core_8hpp.html#ae57ead1fd437651dd5dc2a0ade329032',1,'spark_core.hpp']]]
 ];

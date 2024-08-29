@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['identify_26',['Identify',['../classSparkBase.html#ae1af1f6e0db645f78e30a663dccfee7a',1,'SparkBase::Identify()'],['../spark__base_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1ca907396997c77fece588eefb3b45bfa54',1,'Identify():&#160;spark_base.hpp']]],
-  ['isfollower_27',['IsFollower',['../classSparkBase.html#afe469c73ae97de08535455e8bc9f0a52',1,'SparkBase']]]
+  ['identify_26',['Identify',['../classSparkCore.html#aa4ba98e3e021faa17d2fc1e2ded2a128',1,'SparkCore::Identify()'],['../spark__core_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1ca907396997c77fece588eefb3b45bfa54',1,'Identify():&#160;spark_core.hpp']]],
+  ['isfollower_27',['IsFollower',['../classSparkCore.html#ad4e03053096369fdaca88d68ceaaf275',1,'SparkCore']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['resetfaults_305',['ResetFaults',['../classSparkBase.html#a8c6faff924ae0c4b9fd48ab1bda4b37b',1,'SparkBase']]]
+  ['resetfaults_305',['ResetFaults',['../classSparkCore.html#a5683643a17032b18731b52db6c741411',1,'SparkCore']]]
 ];

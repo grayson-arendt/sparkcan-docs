@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['sparkbase_278',['SparkBase',['../classSparkBase.html',1,'']]]
+  ['sparkcore_278',['SparkCore',['../classSparkCore.html',1,'']]]
 ];

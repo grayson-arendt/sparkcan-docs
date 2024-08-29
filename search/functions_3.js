@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['identify_303',['Identify',['../classSparkBase.html#ae1af1f6e0db645f78e30a663dccfee7a',1,'SparkBase']]],
-  ['isfollower_304',['IsFollower',['../classSparkBase.html#afe469c73ae97de08535455e8bc9f0a52',1,'SparkBase']]]
+  ['identify_303',['Identify',['../classSparkCore.html#aa4ba98e3e021faa17d2fc1e2ded2a128',1,'SparkCore']]],
+  ['isfollower_304',['IsFollower',['../classSparkCore.html#ad4e03053096369fdaca88d68ceaaf275',1,'SparkCore']]]
 ];
