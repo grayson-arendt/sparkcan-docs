@@ -92,9 +92,11 @@ var searchData=
   ['sparkbase_2ecpp_269',['SparkBase.cpp',['../SparkBase_8cpp.html',1,'']]],
   ['sparkbase_2ehpp_270',['SparkBase.hpp',['../SparkBase_8hpp.html',1,'']]],
   ['sparkflex_271',['SparkFlex',['../classSparkFlex.html#a7955a126954760b1311f3de6d7c2abfa',1,'SparkFlex::SparkFlex()'],['../classSparkFlex.html',1,'SparkFlex']]],
-  ['sparkflex_2ehpp_272',['SparkFlex.hpp',['../SparkFlex_8hpp.html',1,'']]],
-  ['sparkmax_273',['SparkMax',['../classSparkMax.html#a7d10ea90599e2be6a92334ef4a786797',1,'SparkMax::SparkMax()'],['../classSparkMax.html',1,'SparkMax']]],
-  ['sparkmax_2ehpp_274',['SparkMax.hpp',['../SparkMax_8hpp.html',1,'']]],
-  ['status_275',['Status',['../SparkBase_8hpp.html#aea0d88c758669471dd65fb36b50a8d71',1,'SparkBase.hpp']]],
-  ['systemcontrol_276',['SystemControl',['../SparkBase_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1c',1,'SparkBase.hpp']]]
+  ['sparkflex_2ecpp_272',['SparkFlex.cpp',['../SparkFlex_8cpp.html',1,'']]],
+  ['sparkflex_2ehpp_273',['SparkFlex.hpp',['../SparkFlex_8hpp.html',1,'']]],
+  ['sparkmax_274',['SparkMax',['../classSparkMax.html#a7d10ea90599e2be6a92334ef4a786797',1,'SparkMax::SparkMax()'],['../classSparkMax.html',1,'SparkMax']]],
+  ['sparkmax_2ecpp_275',['SparkMax.cpp',['../SparkMax_8cpp.html',1,'']]],
+  ['sparkmax_2ehpp_276',['SparkMax.hpp',['../SparkMax_8hpp.html',1,'']]],
+  ['status_277',['Status',['../SparkBase_8hpp.html#aea0d88c758669471dd65fb36b50a8d71',1,'SparkBase.hpp']]],
+  ['systemcontrol_278',['SystemControl',['../SparkBase_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1c',1,'SparkBase.hpp']]]
 ];

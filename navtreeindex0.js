@@ -166,8 +166,10 @@ var NAVTREEINDEX0 =
 "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a88156d46910a2d733443c339a9231d12":[2,0,0,0,0,3,1],
 "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13aab526c1cf88aa12f441bc361447964e8":[2,0,0,0,0,3,6],
 "SparkBase_8hpp_source.html":[2,0,0,0,0],
+"SparkFlex_8cpp.html":[2,0,0,1,1],
 "SparkFlex_8hpp.html":[2,0,0,0,1],
 "SparkFlex_8hpp_source.html":[2,0,0,0,1],
+"SparkMax_8cpp.html":[2,0,0,1,2],
 "SparkMax_8hpp.html":[2,0,0,0,2],
 "SparkMax_8hpp_source.html":[2,0,0,0,2],
 "annotated.html":[1,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX0 =
 "classSparkBase.html#aa1444e9943c77631a9b3a1ffe7fe459a":[1,0,0,71],
 "classSparkBase.html#aa5aaf693e9d7f81bbd1e53e97fc21675":[1,0,0,44],
 "classSparkBase.html#aa64e17a2ea6df23de03d69bedbc052a3":[1,0,0,96],
-"classSparkBase.html#aaa8e76c42b41b85213ea52c8fd3e0a12":[1,0,0,58],
-"classSparkBase.html#aac5d890ad53f70c1e2daa0b84218b860":[1,0,0,107],
-"classSparkBase.html#aac89026b23a2c792fca4ee2b71a2a140":[1,0,0,87]
+"classSparkBase.html#aaa8e76c42b41b85213ea52c8fd3e0a12":[1,0,0,58]
 };
