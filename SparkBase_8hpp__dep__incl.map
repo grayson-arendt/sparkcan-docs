@@ -1,8 +1,10 @@
 <map id="/home/grayson/sparkcan/include/SparkBase.hpp" name="/home/grayson/sparkcan/include/SparkBase.hpp">
-<area shape="rect" id="node1" title="Header file for the base class for controlling REV Robotics SPARK motor controllers." alt="" coords="212,5,395,47"/>
-<area shape="rect" id="node2" href="$SparkFlex_8hpp.html" title="Header file for the SparkFlex class for controlling REV Robotics SPARK Flex controllers." alt="" coords="5,95,188,136"/>
-<area shape="rect" id="node4" href="$SparkMax_8hpp.html" title="Header file for the SparkMax class for controlling REV Robotics SPARK MAX controllers." alt="" coords="212,95,395,136"/>
-<area shape="rect" id="node6" href="$SparkBase_8cpp.html" title="Source file for the base class for controlling REV Robotics SPARK motor controllers." alt="" coords="419,95,601,136"/>
-<area shape="rect" id="node3" href="$SparkFlex_8cpp.html" title="Source file for the SparkFlex class for controlling REV Robotics SPARK Flex controllers." alt="" coords="5,184,188,225"/>
-<area shape="rect" id="node5" href="$SparkMax_8cpp.html" title="Source file for the SparkMax class for controlling REV Robotics SPARK MAX controllers." alt="" coords="212,184,395,225"/>
+<area shape="rect" id="node1" title="Header file for the base class for controlling REV Robotics SPARK motor controllers." alt="" coords="323,5,505,47"/>
+<area shape="rect" id="node2" href="$PIDController_8hpp.html" title="Header file for the PIDController class for configuring and controlling PID for SPARK motor controlle..." alt="" coords="5,95,196,136"/>
+<area shape="rect" id="node4" href="$SparkFlex_8hpp.html" title="Header file for the SparkFlex class for controlling REV Robotics SPARK Flex controllers." alt="" coords="220,95,403,136"/>
+<area shape="rect" id="node6" href="$SparkMax_8hpp.html" title="Header file for the SparkMax class for controlling REV Robotics SPARK MAX controllers." alt="" coords="427,95,609,136"/>
+<area shape="rect" id="node8" href="$SparkBase_8cpp.html" title="Source file for the base class for controlling REV Robotics SPARK motor controllers." alt="" coords="633,95,816,136"/>
+<area shape="rect" id="node3" href="$PIDController_8cpp.html" title="Source file for the PIDController class for configuring and controlling PID for SPARK motor controlle..." alt="" coords="9,184,192,225"/>
+<area shape="rect" id="node5" href="$SparkFlex_8cpp.html" title="Source file for the SparkFlex class for controlling REV Robotics SPARK Flex controllers." alt="" coords="220,184,403,225"/>
+<area shape="rect" id="node7" href="$SparkMax_8cpp.html" title="Source file for the SparkMax class for controlling REV Robotics SPARK MAX controllers." alt="" coords="427,184,609,225"/>
 </map>

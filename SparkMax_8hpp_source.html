@@ -87,21 +87,25 @@ $(document).ready(function(){initNavTree('SparkMax_8hpp_source.html',''); initRe
 </div><!--header-->
 <div class="contents">
 <a href="SparkMax_8hpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160; </div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160; </div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="SparkBase_8hpp.html">SparkBase.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef SPARKMAX_HPP</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#define SPARKMAX_HPP</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="classSparkMax.html">   18</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSparkMax.html">SparkMax</a> : <span class="keyword">public</span> <a class="code" href="classSparkBase.html">SparkBase</a></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classSparkMax.html#a7d10ea90599e2be6a92334ef4a786797">SparkMax</a>(<span class="keyword">const</span> std::string &amp;interfaceName, uint8_t deviceId);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classSparkMax.html#a0da58680ad38d18680176fc370c7f152">~SparkMax</a>();</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="SparkBase_8hpp.html">SparkBase.hpp</a>&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classSparkMax.html">   20</a></span>&#160;<span class="keyword">class </span><a class="code" href="classSparkMax.html">SparkMax</a> : <span class="keyword">public</span> <a class="code" href="classSparkBase.html">SparkBase</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="classSparkMax.html#a7d10ea90599e2be6a92334ef4a786797">SparkMax</a>(<span class="keyword">const</span> std::string &amp;interfaceName, uint8_t deviceId);</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classSparkMax.html#aed2cbe88066994b82c8b1660006cbefe">   24</a></span>&#160;    <a class="code" href="classSparkMax.html#aed2cbe88066994b82c8b1660006cbefe">~SparkMax</a>() <span class="keyword">override</span> = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif </span><span class="comment">// SPARKMAX_HPP</span></div>
 <div class="ttc" id="aSparkBase_8hpp_html"><div class="ttname"><a href="SparkBase_8hpp.html">SparkBase.hpp</a></div><div class="ttdoc">Header file for the base class for controlling REV Robotics SPARK motor controllers.</div></div>
-<div class="ttc" id="aclassSparkBase_html"><div class="ttname"><a href="classSparkBase.html">SparkBase</a></div><div class="ttdoc">A base class for controlling REV Robotics SPARK motor controllers via CAN bus.</div><div class="ttdef"><b>Definition:</b> SparkBase.hpp:229</div></div>
-<div class="ttc" id="aclassSparkMax_html"><div class="ttname"><a href="classSparkMax.html">SparkMax</a></div><div class="ttdoc">A class for controlling REV Robotics SPARK MAX via CAN bus.</div><div class="ttdef"><b>Definition:</b> SparkMax.hpp:19</div></div>
-<div class="ttc" id="aclassSparkMax_html_a0da58680ad38d18680176fc370c7f152"><div class="ttname"><a href="classSparkMax.html#a0da58680ad38d18680176fc370c7f152">SparkMax::~SparkMax</a></div><div class="ttdeci">virtual ~SparkMax()</div><div class="ttdef"><b>Definition:</b> SparkMax.cpp:12</div></div>
+<div class="ttc" id="aclassSparkBase_html"><div class="ttname"><a href="classSparkBase.html">SparkBase</a></div><div class="ttdoc">A base class for controlling REV Robotics SPARK motor controllers via CAN bus.</div><div class="ttdef"><b>Definition:</b> SparkBase.hpp:266</div></div>
+<div class="ttc" id="aclassSparkMax_html"><div class="ttname"><a href="classSparkMax.html">SparkMax</a></div><div class="ttdoc">A class for controlling REV Robotics SPARK MAX via CAN bus.</div><div class="ttdef"><b>Definition:</b> SparkMax.hpp:21</div></div>
 <div class="ttc" id="aclassSparkMax_html_a7d10ea90599e2be6a92334ef4a786797"><div class="ttname"><a href="classSparkMax.html#a7d10ea90599e2be6a92334ef4a786797">SparkMax::SparkMax</a></div><div class="ttdeci">SparkMax(const std::string &amp;interfaceName, uint8_t deviceId)</div><div class="ttdef"><b>Definition:</b> SparkMax.cpp:9</div></div>
+<div class="ttc" id="aclassSparkMax_html_aed2cbe88066994b82c8b1660006cbefe"><div class="ttname"><a href="classSparkMax.html#aed2cbe88066994b82c8b1660006cbefe">SparkMax::~SparkMax</a></div><div class="ttdeci">~SparkMax() override=default</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

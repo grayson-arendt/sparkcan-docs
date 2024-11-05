@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['status_415',['Status',['../SparkBase_8hpp.html#aea0d88c758669471dd65fb36b50a8d71',1,'SparkBase.hpp']]],
-  ['systemcontrol_416',['SystemControl',['../SparkBase_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1c',1,'SparkBase.hpp']]]
+  ['motorcontrol_588',['MotorControl',['../SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13',1,'SparkBase.hpp']]],
+  ['motortype_589',['MotorType',['../SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2',1,'SparkBase.hpp']]]
 ];

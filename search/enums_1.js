@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['parameter_414',['Parameter',['../SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99',1,'SparkBase.hpp']]]
+  ['idlemode_587',['IdleMode',['../SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232',1,'SparkBase.hpp']]]
 ];

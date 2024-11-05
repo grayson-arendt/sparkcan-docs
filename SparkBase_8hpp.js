@@ -3,8 +3,19 @@ var SparkBase_8hpp =
     [ "SparkBase", "classSparkBase.html", "classSparkBase" ],
     [ "RED", "SparkBase_8hpp.html#a8d23feea868a983c8c2b661e1e16972f", null ],
     [ "RESET", "SparkBase_8hpp.html#ab702106cf3b3e96750b6845ded4e0299", null ],
+    [ "CtrlType", "SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4", [
+      [ "kDutyCycle", "SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4a4f453c207a14a8ad3ce721d2503796c8", null ],
+      [ "kVelocity", "SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4a9a9a92e15a32d7c384364212970f5ba8", null ],
+      [ "kVoltage", "SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4a68a2cec8e5690a1515c66fc6d0356ee3", null ],
+      [ "kPosition", "SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4aea78f90b3c3afd64e139a391d6fdd88a", null ]
+    ] ],
+    [ "IdleMode", "SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232", [
+      [ "kCoast", "SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232aa10c257fd8d439dc9bf8dec4810a02c4", null ],
+      [ "kBrake", "SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232a29c8a34cacae630b3d26a083c11f51d0", null ]
+    ] ],
     [ "MotorControl", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13", [
-      [ "AppliedOutput", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a09e3d9177c426455071923e40334f67a", null ],
+      [ "Setpoint", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a547dadef6304affc26261ec5ed2f2011", null ],
+      [ "DutyCycle", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a3e015efacb6f8cb02bd37cafec901301", null ],
       [ "Velocity", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a88156d46910a2d733443c339a9231d12", null ],
       [ "SmartVelocity", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a2aad0482b8542e0787d95981fdc26ae7", null ],
       [ "Position", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a52f5e0bc3859bc5f5e25130b6c7e8881", null ],
@@ -12,8 +23,11 @@ var SparkBase_8hpp =
       [ "Current", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a222a267cc5778206b253be35ee3ddab5", null ],
       [ "SmartMotion", "SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13aab526c1cf88aa12f441bc361447964e8", null ]
     ] ],
+    [ "MotorType", "SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2", [
+      [ "kBrushed", "SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2a01adff00ed2f8c27c788daf2f1b7696e", null ],
+      [ "kBrushless", "SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2abecca8b97e2afbaeac5a8b8023d6babd", null ]
+    ] ],
     [ "Parameter", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99", [
-      [ "kCanID", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99a4e8dfa99fc1bc0e900ee34be30830451", null ],
       [ "kInputMode", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99a07e1e9eb845d30fa66563a33682ca58a", null ],
       [ "kMotorType", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99a299ebcc4d8e0325bd15a743353dabaa8", null ],
       [ "kCommAdvance", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99a842b0ffc3b8198e0229992d3689e36ea", null ],
@@ -149,6 +163,11 @@ var SparkBase_8hpp =
       [ "kPositionPIDMaxInput", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99a8f1ff857cd58aa6784b202614aa2cb7c", null ],
       [ "kDutyCyclePrescalar", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99ae4501983f7d102a40734d6034df5c865", null ],
       [ "kDutyCycleZeroOffset", "SparkBase_8hpp.html#accc23407f22cadf3bd72108095661f99af7932389c804d76e6bef03d5ed40fac3", null ]
+    ] ],
+    [ "SensorType", "SparkBase_8hpp.html#a87ca7b4499ea761999a872674eba32af", [
+      [ "kNoSensor", "SparkBase_8hpp.html#a87ca7b4499ea761999a872674eba32afa9913058d750c61fd2d4fb3e610ab291f", null ],
+      [ "kHallSensor", "SparkBase_8hpp.html#a87ca7b4499ea761999a872674eba32afa3a0fc7ce3934bedc2385b0fd8c83c9fe", null ],
+      [ "kEncoder", "SparkBase_8hpp.html#a87ca7b4499ea761999a872674eba32afa855898be618c26887587460ebdad36fd", null ]
     ] ],
     [ "Status", "SparkBase_8hpp.html#aea0d88c758669471dd65fb36b50a8d71", [
       [ "Period0", "SparkBase_8hpp.html#aea0d88c758669471dd65fb36b50a8d71af40163e387f3c173e43436362575afaa", null ],

@@ -84,6 +84,7 @@ $(document).ready(function(){initNavTree('classSparkBase.html',''); initResizabl
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="classSparkBase-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">SparkBase Class Reference</div>  </div>
@@ -110,33 +111,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae85a0064588d3cf383ae7384ea81e58e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ae85a0064588d3cf383ae7384ea81e58e">SparkBase</a> (const std::string &amp;interfaceName, uint8_t deviceId)</td></tr>
 <tr class="memdesc:ae85a0064588d3cf383ae7384ea81e58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a> with the specified CAN interface and ID.  <a href="classSparkBase.html#ae85a0064588d3cf383ae7384ea81e58e">More...</a><br /></td></tr>
 <tr class="separator:ae85a0064588d3cf383ae7384ea81e58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a166d0eecac49ff43ba258a06997fa961"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a166d0eecac49ff43ba258a06997fa961">~SparkBase</a> ()</td></tr>
+<tr class="memitem:a166d0eecac49ff43ba258a06997fa961"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a166d0eecac49ff43ba258a06997fa961">~SparkBase</a> ()</td></tr>
 <tr class="memdesc:a166d0eecac49ff43ba258a06997fa961"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor for <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>.  <a href="classSparkBase.html#a166d0eecac49ff43ba258a06997fa961">More...</a><br /></td></tr>
 <tr class="separator:a166d0eecac49ff43ba258a06997fa961"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a367ea6cd4d09e10dbb483fe3b7ae2fc9">Heartbeat</a> ()</td></tr>
-<tr class="memdesc:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a heartbeat signal to keep the SPARK controller active.  <a href="classSparkBase.html#a367ea6cd4d09e10dbb483fe3b7ae2fc9">More...</a><br /></td></tr>
-<tr class="separator:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c6faff924ae0c4b9fd48ab1bda4b37b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a8c6faff924ae0c4b9fd48ab1bda4b37b">ResetFaults</a> ()</td></tr>
 <tr class="memdesc:a8c6faff924ae0c4b9fd48ab1bda4b37b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets all faults on the SPARK controller.  <a href="classSparkBase.html#a8c6faff924ae0c4b9fd48ab1bda4b37b">More...</a><br /></td></tr>
 <tr class="separator:a8c6faff924ae0c4b9fd48ab1bda4b37b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69571d7b5c5a01f2bca9ee587cf54e76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a69571d7b5c5a01f2bca9ee587cf54e76">ClearStickyFaults</a> ()</td></tr>
 <tr class="memdesc:a69571d7b5c5a01f2bca9ee587cf54e76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears sticky faults on the SPARK controller.  <a href="classSparkBase.html#a69571d7b5c5a01f2bca9ee587cf54e76">More...</a><br /></td></tr>
 <tr class="separator:a69571d7b5c5a01f2bca9ee587cf54e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c19e3b9f3ad536ec6bbe248577d0f9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a9c19e3b9f3ad536ec6bbe248577d0f9e">ConfigBurnFlash</a> ()</td></tr>
-<tr class="memdesc:a9c19e3b9f3ad536ec6bbe248577d0f9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Burns the current configuration to the SPARK controller's flash memory.  <a href="classSparkBase.html#a9c19e3b9f3ad536ec6bbe248577d0f9e">More...</a><br /></td></tr>
-<tr class="separator:a9c19e3b9f3ad536ec6bbe248577d0f9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83ba37cd19c79a45541a82ec3473f004"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a83ba37cd19c79a45541a82ec3473f004">ConfigFactoryDefaults</a> ()</td></tr>
-<tr class="memdesc:a83ba37cd19c79a45541a82ec3473f004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the SPARK controller to factory default settings.  <a href="classSparkBase.html#a83ba37cd19c79a45541a82ec3473f004">More...</a><br /></td></tr>
-<tr class="separator:a83ba37cd19c79a45541a82ec3473f004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ec8bd48dd3175b6b04b4e6cf5089dae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a6ec8bd48dd3175b6b04b4e6cf5089dae">ConfigFactoryReset</a> ()</td></tr>
-<tr class="memdesc:a6ec8bd48dd3175b6b04b4e6cf5089dae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a factory reset on the SPARK controller.  <a href="classSparkBase.html#a6ec8bd48dd3175b6b04b4e6cf5089dae">More...</a><br /></td></tr>
-<tr class="separator:a6ec8bd48dd3175b6b04b4e6cf5089dae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acff5fd763e54be00a0964c702f7d88cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#acff5fd763e54be00a0964c702f7d88cc">BurnFlash</a> ()</td></tr>
+<tr class="memdesc:acff5fd763e54be00a0964c702f7d88cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Burns the current configuration to the SPARK controller's flash memory.  <a href="classSparkBase.html#acff5fd763e54be00a0964c702f7d88cc">More...</a><br /></td></tr>
+<tr class="separator:acff5fd763e54be00a0964c702f7d88cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff021d58e394068c321ec72c49b356eb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aff021d58e394068c321ec72c49b356eb">FactoryDefaults</a> ()</td></tr>
+<tr class="memdesc:aff021d58e394068c321ec72c49b356eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the SPARK controller to factory default settings.  <a href="classSparkBase.html#aff021d58e394068c321ec72c49b356eb">More...</a><br /></td></tr>
+<tr class="separator:aff021d58e394068c321ec72c49b356eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63aa59b0de6b6cbed525b505bc7e0050"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a63aa59b0de6b6cbed525b505bc7e0050">FactoryReset</a> ()</td></tr>
+<tr class="memdesc:a63aa59b0de6b6cbed525b505bc7e0050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a factory reset on the SPARK controller.  <a href="classSparkBase.html#a63aa59b0de6b6cbed525b505bc7e0050">More...</a><br /></td></tr>
+<tr class="separator:a63aa59b0de6b6cbed525b505bc7e0050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae1af1f6e0db645f78e30a663dccfee7a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ae1af1f6e0db645f78e30a663dccfee7a">Identify</a> ()</td></tr>
 <tr class="memdesc:ae1af1f6e0db645f78e30a663dccfee7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Triggers the SPARK controller to identify itself.  <a href="classSparkBase.html#ae1af1f6e0db645f78e30a663dccfee7a">More...</a><br /></td></tr>
 <tr class="separator:ae1af1f6e0db645f78e30a663dccfee7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b7cf7ac0672b17690092cbfe4ccbac7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a5b7cf7ac0672b17690092cbfe4ccbac7">SetAppliedOutput</a> (float appliedOutput)</td></tr>
-<tr class="memdesc:a5b7cf7ac0672b17690092cbfe4ccbac7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor's applied output.  <a href="classSparkBase.html#a5b7cf7ac0672b17690092cbfe4ccbac7">More...</a><br /></td></tr>
-<tr class="separator:a5b7cf7ac0672b17690092cbfe4ccbac7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc9612a28cc74c90187096edd133de45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#adc9612a28cc74c90187096edd133de45">SetSetpoint</a> (float setpoint)</td></tr>
+<tr class="memdesc:adc9612a28cc74c90187096edd133de45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value for the currently set control type.  <a href="classSparkBase.html#adc9612a28cc74c90187096edd133de45">More...</a><br /></td></tr>
+<tr class="separator:adc9612a28cc74c90187096edd133de45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa3c87cd599175fdcc857bbf939eb29b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#afa3c87cd599175fdcc857bbf939eb29b">SetDutyCycle</a> (float dutyCycle)</td></tr>
+<tr class="memdesc:afa3c87cd599175fdcc857bbf939eb29b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor's applied output.  <a href="classSparkBase.html#afa3c87cd599175fdcc857bbf939eb29b">More...</a><br /></td></tr>
+<tr class="separator:afa3c87cd599175fdcc857bbf939eb29b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f514b972984801852c97776e8b26c9f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a5f514b972984801852c97776e8b26c9f">SetVelocity</a> (float velocity)</td></tr>
 <tr class="memdesc:a5f514b972984801852c97776e8b26c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor's velocity.  <a href="classSparkBase.html#a5f514b972984801852c97776e8b26c9f">More...</a><br /></td></tr>
 <tr class="separator:a5f514b972984801852c97776e8b26c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,9 +156,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae28567d52efb300f13ac463898aaa151"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ae28567d52efb300f13ac463898aaa151">SetSmartMotion</a> (float smartMotion)</td></tr>
 <tr class="memdesc:ae28567d52efb300f13ac463898aaa151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor's smart motion.  <a href="classSparkBase.html#ae28567d52efb300f13ac463898aaa151">More...</a><br /></td></tr>
 <tr class="separator:ae28567d52efb300f13ac463898aaa151"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f326d467902a2e38c2615485077657c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a5f326d467902a2e38c2615485077657c">GetAppliedOutput</a> () const</td></tr>
-<tr class="memdesc:a5f326d467902a2e38c2615485077657c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current applied output.  <a href="classSparkBase.html#a5f326d467902a2e38c2615485077657c">More...</a><br /></td></tr>
-<tr class="separator:a5f326d467902a2e38c2615485077657c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4dfbc5e7aaddcb92d55058238372ab1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab4dfbc5e7aaddcb92d55058238372ab1">GetDutyCycle</a> () const</td></tr>
+<tr class="memdesc:ab4dfbc5e7aaddcb92d55058238372ab1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current applied output.  <a href="classSparkBase.html#ab4dfbc5e7aaddcb92d55058238372ab1">More...</a><br /></td></tr>
+<tr class="separator:ab4dfbc5e7aaddcb92d55058238372ab1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a4b2fd66aa143a3032870863c937ee8"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a9a4b2fd66aa143a3032870863c937ee8">GetFaults</a> () const</td></tr>
+<tr class="memdesc:a9a4b2fd66aa143a3032870863c937ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current faults.  <a href="classSparkBase.html#a9a4b2fd66aa143a3032870863c937ee8">More...</a><br /></td></tr>
+<tr class="separator:a9a4b2fd66aa143a3032870863c937ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b67396735d6d41875683c84b80c618"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a85b67396735d6d41875683c84b80c618">GetStickyFaults</a> () const</td></tr>
+<tr class="memdesc:a85b67396735d6d41875683c84b80c618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the sticky faults.  <a href="classSparkBase.html#a85b67396735d6d41875683c84b80c618">More...</a><br /></td></tr>
+<tr class="separator:a85b67396735d6d41875683c84b80c618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a906b69943b91d66fd0ba3b318e378471"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a906b69943b91d66fd0ba3b318e378471">GetInverted</a> () const</td></tr>
+<tr class="memdesc:a906b69943b91d66fd0ba3b318e378471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the motor is inverted.  <a href="classSparkBase.html#a906b69943b91d66fd0ba3b318e378471">More...</a><br /></td></tr>
+<tr class="separator:a906b69943b91d66fd0ba3b318e378471"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02d215f45f4b121a2d6d583cd7c956b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a02d215f45f4b121a2d6d583cd7c956b6">GetIdleMode</a> () const</td></tr>
+<tr class="memdesc:a02d215f45f4b121a2d6d583cd7c956b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current idle mode.  <a href="classSparkBase.html#a02d215f45f4b121a2d6d583cd7c956b6">More...</a><br /></td></tr>
+<tr class="separator:a02d215f45f4b121a2d6d583cd7c956b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe469c73ae97de08535455e8bc9f0a52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#afe469c73ae97de08535455e8bc9f0a52">IsFollower</a> () const</td></tr>
+<tr class="memdesc:afe469c73ae97de08535455e8bc9f0a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the SPARK controller is in follower mode.  <a href="classSparkBase.html#afe469c73ae97de08535455e8bc9f0a52">More...</a><br /></td></tr>
+<tr class="separator:afe469c73ae97de08535455e8bc9f0a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af06ac40c37c301aeb4b1454d285a325c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#af06ac40c37c301aeb4b1454d285a325c">GetVelocity</a> () const</td></tr>
 <tr class="memdesc:af06ac40c37c301aeb4b1454d285a325c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current velocity.  <a href="classSparkBase.html#af06ac40c37c301aeb4b1454d285a325c">More...</a><br /></td></tr>
 <tr class="separator:af06ac40c37c301aeb4b1454d285a325c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -188,36 +204,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acd60e9ec39a509eeb93c6506ef20c997"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#acd60e9ec39a509eeb93c6506ef20c997">GetAlternateEncoderPosition</a> () const</td></tr>
 <tr class="memdesc:acd60e9ec39a509eeb93c6506ef20c997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the position from the alternate encoder.  <a href="classSparkBase.html#acd60e9ec39a509eeb93c6506ef20c997">More...</a><br /></td></tr>
 <tr class="separator:acd60e9ec39a509eeb93c6506ef20c997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a4b2fd66aa143a3032870863c937ee8"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a9a4b2fd66aa143a3032870863c937ee8">GetFaults</a> () const</td></tr>
-<tr class="memdesc:a9a4b2fd66aa143a3032870863c937ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current faults.  <a href="classSparkBase.html#a9a4b2fd66aa143a3032870863c937ee8">More...</a><br /></td></tr>
-<tr class="separator:a9a4b2fd66aa143a3032870863c937ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b67396735d6d41875683c84b80c618"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a85b67396735d6d41875683c84b80c618">GetStickyFaults</a> () const</td></tr>
-<tr class="memdesc:a85b67396735d6d41875683c84b80c618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the sticky faults.  <a href="classSparkBase.html#a85b67396735d6d41875683c84b80c618">More...</a><br /></td></tr>
-<tr class="separator:a85b67396735d6d41875683c84b80c618"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7344499af18ea1f476479f4445c15193"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7344499af18ea1f476479f4445c15193">GetInvertBrakeIsFollower</a> () const</td></tr>
-<tr class="memdesc:a7344499af18ea1f476479f4445c15193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the invert, brake, and follower status.  <a href="classSparkBase.html#a7344499af18ea1f476479f4445c15193">More...</a><br /></td></tr>
-<tr class="separator:a7344499af18ea1f476479f4445c15193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a906b69943b91d66fd0ba3b318e378471"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a906b69943b91d66fd0ba3b318e378471">GetInverted</a> () const</td></tr>
-<tr class="memdesc:a906b69943b91d66fd0ba3b318e378471"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the motor is inverted.  <a href="classSparkBase.html#a906b69943b91d66fd0ba3b318e378471">More...</a><br /></td></tr>
-<tr class="separator:a906b69943b91d66fd0ba3b318e378471"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02d215f45f4b121a2d6d583cd7c956b6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a02d215f45f4b121a2d6d583cd7c956b6">GetIdleMode</a> () const</td></tr>
-<tr class="memdesc:a02d215f45f4b121a2d6d583cd7c956b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the current idle mode.  <a href="classSparkBase.html#a02d215f45f4b121a2d6d583cd7c956b6">More...</a><br /></td></tr>
-<tr class="separator:a02d215f45f4b121a2d6d583cd7c956b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe469c73ae97de08535455e8bc9f0a52"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#afe469c73ae97de08535455e8bc9f0a52">IsFollower</a> () const</td></tr>
-<tr class="memdesc:afe469c73ae97de08535455e8bc9f0a52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the SPARK controller is in follower mode.  <a href="classSparkBase.html#afe469c73ae97de08535455e8bc9f0a52">More...</a><br /></td></tr>
-<tr class="separator:afe469c73ae97de08535455e8bc9f0a52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8edca099476355833ccce299a8f51583"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a8edca099476355833ccce299a8f51583">SetInputMode</a> (uint8_t mode)</td></tr>
 <tr class="memdesc:a8edca099476355833ccce299a8f51583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the input mode.  <a href="classSparkBase.html#a8edca099476355833ccce299a8f51583">More...</a><br /></td></tr>
 <tr class="separator:a8edca099476355833ccce299a8f51583"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add557c907a9ca8312a62ddd74f6306b4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#add557c907a9ca8312a62ddd74f6306b4">SetMotorType</a> (uint8_t type)</td></tr>
-<tr class="memdesc:add557c907a9ca8312a62ddd74f6306b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor type.  <a href="classSparkBase.html#add557c907a9ca8312a62ddd74f6306b4">More...</a><br /></td></tr>
-<tr class="separator:add557c907a9ca8312a62ddd74f6306b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81b0e4269edbcf069e8cb7c21ffd330b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a81b0e4269edbcf069e8cb7c21ffd330b">SetSensorType</a> (uint8_t sensor)</td></tr>
-<tr class="memdesc:a81b0e4269edbcf069e8cb7c21ffd330b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the sensor type.  <a href="classSparkBase.html#a81b0e4269edbcf069e8cb7c21ffd330b">More...</a><br /></td></tr>
-<tr class="separator:a81b0e4269edbcf069e8cb7c21ffd330b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f4affd3924792480957d6041977e5cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a3f4affd3924792480957d6041977e5cd">SetIdleMode</a> (uint8_t mode)</td></tr>
-<tr class="memdesc:a3f4affd3924792480957d6041977e5cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the idle mode.  <a href="classSparkBase.html#a3f4affd3924792480957d6041977e5cd">More...</a><br /></td></tr>
-<tr class="separator:a3f4affd3924792480957d6041977e5cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9fabfd1f4562fa1dc80c20605a1db26"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab9fabfd1f4562fa1dc80c20605a1db26">SetMotorType</a> (<a class="el" href="SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2">MotorType</a> type)</td></tr>
+<tr class="memdesc:ab9fabfd1f4562fa1dc80c20605a1db26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor type.  <a href="classSparkBase.html#ab9fabfd1f4562fa1dc80c20605a1db26">More...</a><br /></td></tr>
+<tr class="separator:ab9fabfd1f4562fa1dc80c20605a1db26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a069c509cae2bc34937d285c7d81462f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a069c509cae2bc34937d285c7d81462f6">SetSensorType</a> (<a class="el" href="SparkBase_8hpp.html#a87ca7b4499ea761999a872674eba32af">SensorType</a> sensor)</td></tr>
+<tr class="memdesc:a069c509cae2bc34937d285c7d81462f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the sensor type.  <a href="classSparkBase.html#a069c509cae2bc34937d285c7d81462f6">More...</a><br /></td></tr>
+<tr class="separator:a069c509cae2bc34937d285c7d81462f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1184b8e817e6aefd988b275743b68d5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ad1184b8e817e6aefd988b275743b68d5">SetIdleMode</a> (<a class="el" href="SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232">IdleMode</a> mode)</td></tr>
+<tr class="memdesc:ad1184b8e817e6aefd988b275743b68d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the idle mode.  <a href="classSparkBase.html#ad1184b8e817e6aefd988b275743b68d5">More...</a><br /></td></tr>
+<tr class="separator:ad1184b8e817e6aefd988b275743b68d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44eb1601f57283117231721ae6871acc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a44eb1601f57283117231721ae6871acc">SetInputDeadband</a> (float deadband)</td></tr>
 <tr class="memdesc:a44eb1601f57283117231721ae6871acc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the input deadband.  <a href="classSparkBase.html#a44eb1601f57283117231721ae6871acc">More...</a><br /></td></tr>
 <tr class="separator:a44eb1601f57283117231721ae6871acc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,9 +225,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a63260408deeaa3c79e92d3ccfc5d0468"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a63260408deeaa3c79e92d3ccfc5d0468">SetRampRate</a> (float rate)</td></tr>
 <tr class="memdesc:a63260408deeaa3c79e92d3ccfc5d0468"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the ramp rate.  <a href="classSparkBase.html#a63260408deeaa3c79e92d3ccfc5d0468">More...</a><br /></td></tr>
 <tr class="separator:a63260408deeaa3c79e92d3ccfc5d0468"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5aaf693e9d7f81bbd1e53e97fc21675"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aa5aaf693e9d7f81bbd1e53e97fc21675">SetCommAdvance</a> (float advance)</td></tr>
-<tr class="memdesc:aa5aaf693e9d7f81bbd1e53e97fc21675"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the commutation advance.  <a href="classSparkBase.html#aa5aaf693e9d7f81bbd1e53e97fc21675">More...</a><br /></td></tr>
-<tr class="separator:aa5aaf693e9d7f81bbd1e53e97fc21675"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a163baa1fba2b452feee24fbc2387a9c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a163baa1fba2b452feee24fbc2387a9c8">SetMotorKv</a> (uint16_t kv)</td></tr>
 <tr class="memdesc:a163baa1fba2b452feee24fbc2387a9c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor Kv (velocity constant)  <a href="classSparkBase.html#a163baa1fba2b452feee24fbc2387a9c8">More...</a><br /></td></tr>
 <tr class="separator:a163baa1fba2b452feee24fbc2387a9c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,9 +234,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2abce74163c0c629fdead05414ce1b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab2abce74163c0c629fdead05414ce1b0">SetMotorL</a> (uint16_t l)</td></tr>
 <tr class="memdesc:ab2abce74163c0c629fdead05414ce1b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the motor inductance.  <a href="classSparkBase.html#ab2abce74163c0c629fdead05414ce1b0">More...</a><br /></td></tr>
 <tr class="separator:ab2abce74163c0c629fdead05414ce1b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1a1cff044439ef2c09dffc0ba9d54d4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab1a1cff044439ef2c09dffc0ba9d54d4">SetCtrlType</a> (uint8_t type)</td></tr>
-<tr class="memdesc:ab1a1cff044439ef2c09dffc0ba9d54d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the control type.  <a href="classSparkBase.html#ab1a1cff044439ef2c09dffc0ba9d54d4">More...</a><br /></td></tr>
-<tr class="separator:ab1a1cff044439ef2c09dffc0ba9d54d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1abe910d8e540f849704ae764bd5791d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a1abe910d8e540f849704ae764bd5791d">SetCtrlType</a> (<a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4">CtrlType</a> type)</td></tr>
+<tr class="memdesc:a1abe910d8e540f849704ae764bd5791d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the control type.  <a href="classSparkBase.html#a1abe910d8e540f849704ae764bd5791d">More...</a><br /></td></tr>
+<tr class="separator:a1abe910d8e540f849704ae764bd5791d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d6f3534842bfd761960736d5226983a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7d6f3534842bfd761960736d5226983a">SetFeedbackSensorPID0</a> (uint16_t sensor)</td></tr>
 <tr class="memdesc:a7d6f3534842bfd761960736d5226983a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the feedback sensor for PID0.  <a href="classSparkBase.html#a7d6f3534842bfd761960736d5226983a">More...</a><br /></td></tr>
 <tr class="separator:a7d6f3534842bfd761960736d5226983a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,10 +292,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:acfd9b77f393d9774ea8d36d98fa6a188"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the derivative filter for the specified PID slot.  <a href="classSparkBase.html#acfd9b77f393d9774ea8d36d98fa6a188">More...</a><br /></td></tr>
 <tr class="separator:acfd9b77f393d9774ea8d36d98fa6a188"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7aa42796ec43f112ecebd20a9f113dc2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7aa42796ec43f112ecebd20a9f113dc2">SetOutputMin</a> (uint8_t slot, float min)</td></tr>
-<tr class="memdesc:a7aa42796ec43f112ecebd20a9f113dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the minimum output for the specified PID slot.  <a href="classSparkBase.html#a7aa42796ec43f112ecebd20a9f113dc2">More...</a><br /></td></tr>
+<tr class="memdesc:a7aa42796ec43f112ecebd20a9f113dc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the output minimum for the specified PID slot.  <a href="classSparkBase.html#a7aa42796ec43f112ecebd20a9f113dc2">More...</a><br /></td></tr>
 <tr class="separator:a7aa42796ec43f112ecebd20a9f113dc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fcff7207a9d569412d6c650749dd76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a06fcff7207a9d569412d6c650749dd76">SetOutputMax</a> (uint8_t slot, float max)</td></tr>
-<tr class="memdesc:a06fcff7207a9d569412d6c650749dd76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximum output for the specified PID slot.  <a href="classSparkBase.html#a06fcff7207a9d569412d6c650749dd76">More...</a><br /></td></tr>
+<tr class="memdesc:a06fcff7207a9d569412d6c650749dd76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the output maximum for the specified PID slot.  <a href="classSparkBase.html#a06fcff7207a9d569412d6c650749dd76">More...</a><br /></td></tr>
 <tr class="separator:a06fcff7207a9d569412d6c650749dd76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1f5856fba13be4388c72c3240829ff99"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a1f5856fba13be4388c72c3240829ff99">SetHardLimitFwdEn</a> (bool enable)</td></tr>
 <tr class="memdesc:a1f5856fba13be4388c72c3240829ff99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables or disables the forward hard limit switch.  <a href="classSparkBase.html#a1f5856fba13be4388c72c3240829ff99">More...</a><br /></td></tr>
@@ -359,12 +354,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a572eb1c312a2c8330f13a14b40168939"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a572eb1c312a2c8330f13a14b40168939">SetHallSensorAverageDepth</a> (uint16_t depth)</td></tr>
 <tr class="memdesc:a572eb1c312a2c8330f13a14b40168939"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the hall sensor average depth.  <a href="classSparkBase.html#a572eb1c312a2c8330f13a14b40168939">More...</a><br /></td></tr>
 <tr class="separator:a572eb1c312a2c8330f13a14b40168939"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab7ba05f70cde42a56d7adfe624bb1b8d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab7ba05f70cde42a56d7adfe624bb1b8d">SetSmartMotionMaxVelocity</a> (uint8_t slot, float velocity)</td></tr>
-<tr class="memdesc:ab7ba05f70cde42a56d7adfe624bb1b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximum velocity for Smart Motion in the specified slot.  <a href="classSparkBase.html#ab7ba05f70cde42a56d7adfe624bb1b8d">More...</a><br /></td></tr>
-<tr class="separator:ab7ba05f70cde42a56d7adfe624bb1b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5e90e818e8079e74f1bda680e1c8bbd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab5e90e818e8079e74f1bda680e1c8bbd">SetSmartMotionMaxAccel</a> (uint8_t slot, float accel)</td></tr>
-<tr class="memdesc:ab5e90e818e8079e74f1bda680e1c8bbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximum acceleration for Smart Motion in the specified slot.  <a href="classSparkBase.html#ab5e90e818e8079e74f1bda680e1c8bbd">More...</a><br /></td></tr>
-<tr class="separator:ab5e90e818e8079e74f1bda680e1c8bbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a332c7c2eeebc9acef8aa7deb856cc958"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a332c7c2eeebc9acef8aa7deb856cc958">SetSmartMotionMaxVelocity</a> (uint8_t slot, float maxVel)</td></tr>
+<tr class="memdesc:a332c7c2eeebc9acef8aa7deb856cc958"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximum velocity for Smart Motion in the specified slot.  <a href="classSparkBase.html#a332c7c2eeebc9acef8aa7deb856cc958">More...</a><br /></td></tr>
+<tr class="separator:a332c7c2eeebc9acef8aa7deb856cc958"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af34a5795c2f39028956ed8d7c960fb96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#af34a5795c2f39028956ed8d7c960fb96">SetSmartMotionMaxAccel</a> (uint8_t slot, float maxAccel)</td></tr>
+<tr class="memdesc:af34a5795c2f39028956ed8d7c960fb96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the maximum acceleration for Smart Motion in the specified slot.  <a href="classSparkBase.html#af34a5795c2f39028956ed8d7c960fb96">More...</a><br /></td></tr>
+<tr class="separator:af34a5795c2f39028956ed8d7c960fb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a53b78f4a66320c265ba14824da3c740d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a53b78f4a66320c265ba14824da3c740d">SetSmartMotionMinVelOutput</a> (uint8_t slot, float minVel)</td></tr>
 <tr class="memdesc:a53b78f4a66320c265ba14824da3c740d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the minimum velocity output for Smart Motion in the specified slot.  <a href="classSparkBase.html#a53b78f4a66320c265ba14824da3c740d">More...</a><br /></td></tr>
 <tr class="separator:a53b78f4a66320c265ba14824da3c740d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -443,6 +438,243 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa8e76c42b41b85213ea52c8fd3e0a12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aaa8e76c42b41b85213ea52c8fd3e0a12">SetDutyCycleZeroOffset</a> (float offset)</td></tr>
 <tr class="memdesc:aaa8e76c42b41b85213ea52c8fd3e0a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the zero offset for the duty cycle encoder.  <a href="classSparkBase.html#aaa8e76c42b41b85213ea52c8fd3e0a12">More...</a><br /></td></tr>
 <tr class="separator:aaa8e76c42b41b85213ea52c8fd3e0a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74eeee5e31e98a028b44548d16f60ca7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a74eeee5e31e98a028b44548d16f60ca7">GetMotorType</a> ()</td></tr>
+<tr class="memdesc:a74eeee5e31e98a028b44548d16f60ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the motor type.  <a href="classSparkBase.html#a74eeee5e31e98a028b44548d16f60ca7">More...</a><br /></td></tr>
+<tr class="separator:a74eeee5e31e98a028b44548d16f60ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9bc8a94fda76611e5a9d9f09e7cd1e1"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ad9bc8a94fda76611e5a9d9f09e7cd1e1">GetSensorType</a> ()</td></tr>
+<tr class="memdesc:ad9bc8a94fda76611e5a9d9f09e7cd1e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the sensor type.  <a href="classSparkBase.html#ad9bc8a94fda76611e5a9d9f09e7cd1e1">More...</a><br /></td></tr>
+<tr class="separator:ad9bc8a94fda76611e5a9d9f09e7cd1e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbd4545bb6a9a79a5e7581c410ee4ce9"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#afbd4545bb6a9a79a5e7581c410ee4ce9">GetIdleMode</a> ()</td></tr>
+<tr class="memdesc:afbd4545bb6a9a79a5e7581c410ee4ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the idle mode.  <a href="classSparkBase.html#afbd4545bb6a9a79a5e7581c410ee4ce9">More...</a><br /></td></tr>
+<tr class="separator:afbd4545bb6a9a79a5e7581c410ee4ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf2f13da07d277e71fb2bdd2d52f812c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aaf2f13da07d277e71fb2bdd2d52f812c">GetInputDeadband</a> ()</td></tr>
+<tr class="memdesc:aaf2f13da07d277e71fb2bdd2d52f812c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the input deadband.  <a href="classSparkBase.html#aaf2f13da07d277e71fb2bdd2d52f812c">More...</a><br /></td></tr>
+<tr class="separator:aaf2f13da07d277e71fb2bdd2d52f812c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2179d1f98a6d67af6a283eec5d45cd2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a2179d1f98a6d67af6a283eec5d45cd2b">GetInverted</a> ()</td></tr>
+<tr class="memdesc:a2179d1f98a6d67af6a283eec5d45cd2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get whether the motor is inverted.  <a href="classSparkBase.html#a2179d1f98a6d67af6a283eec5d45cd2b">More...</a><br /></td></tr>
+<tr class="separator:a2179d1f98a6d67af6a283eec5d45cd2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a091adaa05f1447754d01ebaa6b549d59"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a091adaa05f1447754d01ebaa6b549d59">GetRampRate</a> ()</td></tr>
+<tr class="memdesc:a091adaa05f1447754d01ebaa6b549d59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the ramp rate.  <a href="classSparkBase.html#a091adaa05f1447754d01ebaa6b549d59">More...</a><br /></td></tr>
+<tr class="separator:a091adaa05f1447754d01ebaa6b549d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ccb10fb6067d86f0f0465f048a3d344"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a8ccb10fb6067d86f0f0465f048a3d344">GetMotorKv</a> ()</td></tr>
+<tr class="memdesc:a8ccb10fb6067d86f0f0465f048a3d344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the motor Kv rating.  <a href="classSparkBase.html#a8ccb10fb6067d86f0f0465f048a3d344">More...</a><br /></td></tr>
+<tr class="separator:a8ccb10fb6067d86f0f0465f048a3d344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a822136047edba87ef90f503b78a609e8"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a822136047edba87ef90f503b78a609e8">GetMotorR</a> ()</td></tr>
+<tr class="memdesc:a822136047edba87ef90f503b78a609e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the motor resistance.  <a href="classSparkBase.html#a822136047edba87ef90f503b78a609e8">More...</a><br /></td></tr>
+<tr class="separator:a822136047edba87ef90f503b78a609e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab76695857801c0198f8cab9fd94506e8"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab76695857801c0198f8cab9fd94506e8">GetMotorL</a> ()</td></tr>
+<tr class="memdesc:ab76695857801c0198f8cab9fd94506e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the motor inductance.  <a href="classSparkBase.html#ab76695857801c0198f8cab9fd94506e8">More...</a><br /></td></tr>
+<tr class="separator:ab76695857801c0198f8cab9fd94506e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e6d4f3d01e55d3e2e241e2a9cddaf8"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a32e6d4f3d01e55d3e2e241e2a9cddaf8">GetCtrlType</a> ()</td></tr>
+<tr class="memdesc:a32e6d4f3d01e55d3e2e241e2a9cddaf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the control type.  <a href="classSparkBase.html#a32e6d4f3d01e55d3e2e241e2a9cddaf8">More...</a><br /></td></tr>
+<tr class="separator:a32e6d4f3d01e55d3e2e241e2a9cddaf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d0e93d51952e5a1e669bd2a4ea76983"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7d0e93d51952e5a1e669bd2a4ea76983">GetFeedbackSensorPID0</a> ()</td></tr>
+<tr class="memdesc:a7d0e93d51952e5a1e669bd2a4ea76983"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the feedback sensor PID0 value.  <a href="classSparkBase.html#a7d0e93d51952e5a1e669bd2a4ea76983">More...</a><br /></td></tr>
+<tr class="separator:a7d0e93d51952e5a1e669bd2a4ea76983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afda940725806eadafc81ada14687e2ac"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#afda940725806eadafc81ada14687e2ac">GetClosedLoopVoltageMode</a> ()</td></tr>
+<tr class="memdesc:afda940725806eadafc81ada14687e2ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the closed loop voltage mode.  <a href="classSparkBase.html#afda940725806eadafc81ada14687e2ac">More...</a><br /></td></tr>
+<tr class="separator:afda940725806eadafc81ada14687e2ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89301ed12e35b68726b9ad8eb3771713"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a89301ed12e35b68726b9ad8eb3771713">GetCompensatedNominalVoltage</a> ()</td></tr>
+<tr class="memdesc:a89301ed12e35b68726b9ad8eb3771713"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the compensated nominal voltage.  <a href="classSparkBase.html#a89301ed12e35b68726b9ad8eb3771713">More...</a><br /></td></tr>
+<tr class="separator:a89301ed12e35b68726b9ad8eb3771713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81d16ffb67962c7ce5f76822ee8946ca"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a81d16ffb67962c7ce5f76822ee8946ca">GetPositionPIDWrapEnable</a> ()</td></tr>
+<tr class="memdesc:a81d16ffb67962c7ce5f76822ee8946ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position PID wrap enable state.  <a href="classSparkBase.html#a81d16ffb67962c7ce5f76822ee8946ca">More...</a><br /></td></tr>
+<tr class="separator:a81d16ffb67962c7ce5f76822ee8946ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb7efcab2b5799e87909678a6772c19"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7bb7efcab2b5799e87909678a6772c19">GetPositionPIDMinInput</a> ()</td></tr>
+<tr class="memdesc:a7bb7efcab2b5799e87909678a6772c19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position PID minimum input.  <a href="classSparkBase.html#a7bb7efcab2b5799e87909678a6772c19">More...</a><br /></td></tr>
+<tr class="separator:a7bb7efcab2b5799e87909678a6772c19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69801f2010d3f3ef9dc2e3ac38121843"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a69801f2010d3f3ef9dc2e3ac38121843">GetPositionPIDMaxInput</a> ()</td></tr>
+<tr class="memdesc:a69801f2010d3f3ef9dc2e3ac38121843"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position PID maximum input.  <a href="classSparkBase.html#a69801f2010d3f3ef9dc2e3ac38121843">More...</a><br /></td></tr>
+<tr class="separator:a69801f2010d3f3ef9dc2e3ac38121843"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb5a04e688a7c3a3131a39e24f353ca3"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#abb5a04e688a7c3a3131a39e24f353ca3">GetPolePairs</a> ()</td></tr>
+<tr class="memdesc:abb5a04e688a7c3a3131a39e24f353ca3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the number of pole pairs.  <a href="classSparkBase.html#abb5a04e688a7c3a3131a39e24f353ca3">More...</a><br /></td></tr>
+<tr class="separator:abb5a04e688a7c3a3131a39e24f353ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6e9dfe7f6de2fdd507e4999b98e798"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a4c6e9dfe7f6de2fdd507e4999b98e798">GetCurrentChop</a> ()</td></tr>
+<tr class="memdesc:a4c6e9dfe7f6de2fdd507e4999b98e798"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current chop value.  <a href="classSparkBase.html#a4c6e9dfe7f6de2fdd507e4999b98e798">More...</a><br /></td></tr>
+<tr class="separator:a4c6e9dfe7f6de2fdd507e4999b98e798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa07c8ad6b1b617a981eab35717a05a7"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#afa07c8ad6b1b617a981eab35717a05a7">GetCurrentChopCycles</a> ()</td></tr>
+<tr class="memdesc:afa07c8ad6b1b617a981eab35717a05a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the current chop cycles.  <a href="classSparkBase.html#afa07c8ad6b1b617a981eab35717a05a7">More...</a><br /></td></tr>
+<tr class="separator:afa07c8ad6b1b617a981eab35717a05a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a5e0365655017d3e2559b70ab8b149c"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a2a5e0365655017d3e2559b70ab8b149c">GetSmartCurrentStallLimit</a> ()</td></tr>
+<tr class="memdesc:a2a5e0365655017d3e2559b70ab8b149c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the smart current stall limit.  <a href="classSparkBase.html#a2a5e0365655017d3e2559b70ab8b149c">More...</a><br /></td></tr>
+<tr class="separator:a2a5e0365655017d3e2559b70ab8b149c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48c1bd657ed85c8db5fba6fc2c88d336"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a48c1bd657ed85c8db5fba6fc2c88d336">GetSmartCurrentFreeLimit</a> ()</td></tr>
+<tr class="memdesc:a48c1bd657ed85c8db5fba6fc2c88d336"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the smart current free limit.  <a href="classSparkBase.html#a48c1bd657ed85c8db5fba6fc2c88d336">More...</a><br /></td></tr>
+<tr class="separator:a48c1bd657ed85c8db5fba6fc2c88d336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246773c361dc9bacd9505bebd5ce0b51"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a246773c361dc9bacd9505bebd5ce0b51">GetSmartCurrentConfig</a> ()</td></tr>
+<tr class="memdesc:a246773c361dc9bacd9505bebd5ce0b51"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the smart current configuration.  <a href="classSparkBase.html#a246773c361dc9bacd9505bebd5ce0b51">More...</a><br /></td></tr>
+<tr class="separator:a246773c361dc9bacd9505bebd5ce0b51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac377b0c80f240e211e9906d597483f5c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ac377b0c80f240e211e9906d597483f5c">GetP</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:ac377b0c80f240e211e9906d597483f5c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the proportional (P) constant for a given slot.  <a href="classSparkBase.html#ac377b0c80f240e211e9906d597483f5c">More...</a><br /></td></tr>
+<tr class="separator:ac377b0c80f240e211e9906d597483f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa5fecb02f54e906e5e76707b0b7e898"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#afa5fecb02f54e906e5e76707b0b7e898">GetI</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:afa5fecb02f54e906e5e76707b0b7e898"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the integral (I) constant for a given slot.  <a href="classSparkBase.html#afa5fecb02f54e906e5e76707b0b7e898">More...</a><br /></td></tr>
+<tr class="separator:afa5fecb02f54e906e5e76707b0b7e898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad417fdc52ada9b2b13054d42c7f03574"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ad417fdc52ada9b2b13054d42c7f03574">GetD</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:ad417fdc52ada9b2b13054d42c7f03574"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the derivative (D) constant for a given slot.  <a href="classSparkBase.html#ad417fdc52ada9b2b13054d42c7f03574">More...</a><br /></td></tr>
+<tr class="separator:ad417fdc52ada9b2b13054d42c7f03574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48af8a467ffd9defc13cbc62ec25a854"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a48af8a467ffd9defc13cbc62ec25a854">GetF</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a48af8a467ffd9defc13cbc62ec25a854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the feedforward (F) constant for a given slot.  <a href="classSparkBase.html#a48af8a467ffd9defc13cbc62ec25a854">More...</a><br /></td></tr>
+<tr class="separator:a48af8a467ffd9defc13cbc62ec25a854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8403e0e7e80689c3bd7ecea9a625e0e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ae8403e0e7e80689c3bd7ecea9a625e0e">GetIZone</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:ae8403e0e7e80689c3bd7ecea9a625e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the IZone value for a given slot.  <a href="classSparkBase.html#ae8403e0e7e80689c3bd7ecea9a625e0e">More...</a><br /></td></tr>
+<tr class="separator:ae8403e0e7e80689c3bd7ecea9a625e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ef1e95c81234c15d045909972c8589"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a17ef1e95c81234c15d045909972c8589">GetDFilter</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a17ef1e95c81234c15d045909972c8589"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the DFilter value for a given slot.  <a href="classSparkBase.html#a17ef1e95c81234c15d045909972c8589">More...</a><br /></td></tr>
+<tr class="separator:a17ef1e95c81234c15d045909972c8589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1266d928f0de54c768d09d3b19dbeb45"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a1266d928f0de54c768d09d3b19dbeb45">GetOutputMin</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a1266d928f0de54c768d09d3b19dbeb45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the output minimum value for a given slot.  <a href="classSparkBase.html#a1266d928f0de54c768d09d3b19dbeb45">More...</a><br /></td></tr>
+<tr class="separator:a1266d928f0de54c768d09d3b19dbeb45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad051f0dbe8478a8dbba4362e123a7618"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ad051f0dbe8478a8dbba4362e123a7618">GetOutputMax</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:ad051f0dbe8478a8dbba4362e123a7618"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the output maximum value for a given slot.  <a href="classSparkBase.html#ad051f0dbe8478a8dbba4362e123a7618">More...</a><br /></td></tr>
+<tr class="separator:ad051f0dbe8478a8dbba4362e123a7618"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad296fdba4f7017a9a680b9f755a64fd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aad296fdba4f7017a9a680b9f755a64fd">GetHardLimitFwdEn</a> ()</td></tr>
+<tr class="memdesc:aad296fdba4f7017a9a680b9f755a64fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the forward hard limit enable state.  <a href="classSparkBase.html#aad296fdba4f7017a9a680b9f755a64fd">More...</a><br /></td></tr>
+<tr class="separator:aad296fdba4f7017a9a680b9f755a64fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1b9667fe777434fa670d5cff65f7322"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aa1b9667fe777434fa670d5cff65f7322">GetHardLimitRevEn</a> ()</td></tr>
+<tr class="memdesc:aa1b9667fe777434fa670d5cff65f7322"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the reverse hard limit enable state.  <a href="classSparkBase.html#aa1b9667fe777434fa670d5cff65f7322">More...</a><br /></td></tr>
+<tr class="separator:aa1b9667fe777434fa670d5cff65f7322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11b5717c004a54b05c1e7614b9ff99c4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a11b5717c004a54b05c1e7614b9ff99c4">GetLimitSwitchFwdPolarity</a> ()</td></tr>
+<tr class="memdesc:a11b5717c004a54b05c1e7614b9ff99c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the forward limit switch polarity.  <a href="classSparkBase.html#a11b5717c004a54b05c1e7614b9ff99c4">More...</a><br /></td></tr>
+<tr class="separator:a11b5717c004a54b05c1e7614b9ff99c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f13e361611730b98f7b0c379f141743"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a1f13e361611730b98f7b0c379f141743">GetLimitSwitchRevPolarity</a> ()</td></tr>
+<tr class="memdesc:a1f13e361611730b98f7b0c379f141743"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the reverse limit switch polarity.  <a href="classSparkBase.html#a1f13e361611730b98f7b0c379f141743">More...</a><br /></td></tr>
+<tr class="separator:a1f13e361611730b98f7b0c379f141743"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef05a67a1caefbfc73bb40e4856f1410"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aef05a67a1caefbfc73bb40e4856f1410">GetSoftLimitFwdEn</a> ()</td></tr>
+<tr class="memdesc:aef05a67a1caefbfc73bb40e4856f1410"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the forward soft limit enable state.  <a href="classSparkBase.html#aef05a67a1caefbfc73bb40e4856f1410">More...</a><br /></td></tr>
+<tr class="separator:aef05a67a1caefbfc73bb40e4856f1410"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f6c5e69763ad379c2cbbe6bed7e60f4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7f6c5e69763ad379c2cbbe6bed7e60f4">GetSoftLimitRevEn</a> ()</td></tr>
+<tr class="memdesc:a7f6c5e69763ad379c2cbbe6bed7e60f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the reverse soft limit enable state.  <a href="classSparkBase.html#a7f6c5e69763ad379c2cbbe6bed7e60f4">More...</a><br /></td></tr>
+<tr class="separator:a7f6c5e69763ad379c2cbbe6bed7e60f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dfaa8fe53e71093ecb7e299f35ffcae"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a6dfaa8fe53e71093ecb7e299f35ffcae">GetSoftLimitFwd</a> ()</td></tr>
+<tr class="memdesc:a6dfaa8fe53e71093ecb7e299f35ffcae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the forward soft limit value.  <a href="classSparkBase.html#a6dfaa8fe53e71093ecb7e299f35ffcae">More...</a><br /></td></tr>
+<tr class="separator:a6dfaa8fe53e71093ecb7e299f35ffcae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad04e1e43513be0aa9ff45486ca37646f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ad04e1e43513be0aa9ff45486ca37646f">GetSoftLimitRev</a> ()</td></tr>
+<tr class="memdesc:ad04e1e43513be0aa9ff45486ca37646f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the reverse soft limit value.  <a href="classSparkBase.html#ad04e1e43513be0aa9ff45486ca37646f">More...</a><br /></td></tr>
+<tr class="separator:ad04e1e43513be0aa9ff45486ca37646f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ade3615c8836d1464cf715522e7ae21de"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ade3615c8836d1464cf715522e7ae21de">GetFollowerID</a> ()</td></tr>
+<tr class="memdesc:ade3615c8836d1464cf715522e7ae21de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the follower ID.  <a href="classSparkBase.html#ade3615c8836d1464cf715522e7ae21de">More...</a><br /></td></tr>
+<tr class="separator:ade3615c8836d1464cf715522e7ae21de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a404a2884cb32ad6350b6e47be2129ad4"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a404a2884cb32ad6350b6e47be2129ad4">GetFollowerConfig</a> ()</td></tr>
+<tr class="memdesc:a404a2884cb32ad6350b6e47be2129ad4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the follower configuration.  <a href="classSparkBase.html#a404a2884cb32ad6350b6e47be2129ad4">More...</a><br /></td></tr>
+<tr class="separator:a404a2884cb32ad6350b6e47be2129ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d59d9b9896c53c58bd7554b2dcd5277"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a8d59d9b9896c53c58bd7554b2dcd5277">GetEncoderCountsPerRev</a> ()</td></tr>
+<tr class="memdesc:a8d59d9b9896c53c58bd7554b2dcd5277"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the encoder counts per revolution.  <a href="classSparkBase.html#a8d59d9b9896c53c58bd7554b2dcd5277">More...</a><br /></td></tr>
+<tr class="separator:a8d59d9b9896c53c58bd7554b2dcd5277"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cbed8d4a522b3b68341aa62e0a995a6"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a4cbed8d4a522b3b68341aa62e0a995a6">GetEncoderAverageDepth</a> ()</td></tr>
+<tr class="memdesc:a4cbed8d4a522b3b68341aa62e0a995a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the encoder average depth.  <a href="classSparkBase.html#a4cbed8d4a522b3b68341aa62e0a995a6">More...</a><br /></td></tr>
+<tr class="separator:a4cbed8d4a522b3b68341aa62e0a995a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1e8ef1015fff4fce944e712e46da21b"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ae1e8ef1015fff4fce944e712e46da21b">GetEncoderSampleDelta</a> ()</td></tr>
+<tr class="memdesc:ae1e8ef1015fff4fce944e712e46da21b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the encoder sample delta.  <a href="classSparkBase.html#ae1e8ef1015fff4fce944e712e46da21b">More...</a><br /></td></tr>
+<tr class="separator:ae1e8ef1015fff4fce944e712e46da21b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7849633249363026a7edc18ddf8e7214"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7849633249363026a7edc18ddf8e7214">GetEncoderInverted</a> ()</td></tr>
+<tr class="memdesc:a7849633249363026a7edc18ddf8e7214"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the encoder inversion state.  <a href="classSparkBase.html#a7849633249363026a7edc18ddf8e7214">More...</a><br /></td></tr>
+<tr class="separator:a7849633249363026a7edc18ddf8e7214"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f2d3e0f95076b144cf778ad4c33ca1e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a5f2d3e0f95076b144cf778ad4c33ca1e">GetPositionConversionFactor</a> ()</td></tr>
+<tr class="memdesc:a5f2d3e0f95076b144cf778ad4c33ca1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the position conversion factor.  <a href="classSparkBase.html#a5f2d3e0f95076b144cf778ad4c33ca1e">More...</a><br /></td></tr>
+<tr class="separator:a5f2d3e0f95076b144cf778ad4c33ca1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c521f7dbe8a322fd71a742f3099f28"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a84c521f7dbe8a322fd71a742f3099f28">GetVelocityConversionFactor</a> ()</td></tr>
+<tr class="memdesc:a84c521f7dbe8a322fd71a742f3099f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the velocity conversion factor.  <a href="classSparkBase.html#a84c521f7dbe8a322fd71a742f3099f28">More...</a><br /></td></tr>
+<tr class="separator:a84c521f7dbe8a322fd71a742f3099f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa189418b073ed9a8f2ff0a33e17a6551"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#aa189418b073ed9a8f2ff0a33e17a6551">GetClosedLoopRampRate</a> ()</td></tr>
+<tr class="memdesc:aa189418b073ed9a8f2ff0a33e17a6551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the closed loop ramp rate.  <a href="classSparkBase.html#aa189418b073ed9a8f2ff0a33e17a6551">More...</a><br /></td></tr>
+<tr class="separator:aa189418b073ed9a8f2ff0a33e17a6551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9abe7f4b0bb0de0fad7a350fff5be12"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ad9abe7f4b0bb0de0fad7a350fff5be12">GetHallSensorSampleRate</a> ()</td></tr>
+<tr class="memdesc:ad9abe7f4b0bb0de0fad7a350fff5be12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hall sensor sample rate.  <a href="classSparkBase.html#ad9abe7f4b0bb0de0fad7a350fff5be12">More...</a><br /></td></tr>
+<tr class="separator:ad9abe7f4b0bb0de0fad7a350fff5be12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab5bdbb29f54ad67a43e40628883052"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a3ab5bdbb29f54ad67a43e40628883052">GetHallSensorAverageDepth</a> ()</td></tr>
+<tr class="memdesc:a3ab5bdbb29f54ad67a43e40628883052"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the Hall sensor average depth.  <a href="classSparkBase.html#a3ab5bdbb29f54ad67a43e40628883052">More...</a><br /></td></tr>
+<tr class="separator:a3ab5bdbb29f54ad67a43e40628883052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af93bfbc2aa778e96ee2dd8602448afd6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#af93bfbc2aa778e96ee2dd8602448afd6">GetSmartMotionMaxVelocity</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:af93bfbc2aa778e96ee2dd8602448afd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum velocity for Smart Motion in a given slot.  <a href="classSparkBase.html#af93bfbc2aa778e96ee2dd8602448afd6">More...</a><br /></td></tr>
+<tr class="separator:af93bfbc2aa778e96ee2dd8602448afd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a758823fc6b6205364d3ecf2926acb9b5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a758823fc6b6205364d3ecf2926acb9b5">GetSmartMotionMaxAccel</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a758823fc6b6205364d3ecf2926acb9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum acceleration for Smart Motion in a given slot.  <a href="classSparkBase.html#a758823fc6b6205364d3ecf2926acb9b5">More...</a><br /></td></tr>
+<tr class="separator:a758823fc6b6205364d3ecf2926acb9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11c95d9e59f882f264567a6473f54eef"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a11c95d9e59f882f264567a6473f54eef">GetSmartMotionMinVelOutput</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a11c95d9e59f882f264567a6473f54eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the minimum velocity output for Smart Motion in a given slot.  <a href="classSparkBase.html#a11c95d9e59f882f264567a6473f54eef">More...</a><br /></td></tr>
+<tr class="separator:a11c95d9e59f882f264567a6473f54eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af09c513d0e3c63d521881b8c95ea04ac"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#af09c513d0e3c63d521881b8c95ea04ac">GetSmartMotionAllowedClosedLoopError</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:af09c513d0e3c63d521881b8c95ea04ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the allowed closed-loop error for Smart Motion in a given slot.  <a href="classSparkBase.html#af09c513d0e3c63d521881b8c95ea04ac">More...</a><br /></td></tr>
+<tr class="separator:af09c513d0e3c63d521881b8c95ea04ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abae67e89c2a7e447887510652ceae9e6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#abae67e89c2a7e447887510652ceae9e6">GetSmartMotionAccelStrategy</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:abae67e89c2a7e447887510652ceae9e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the acceleration strategy for Smart Motion in a given slot.  <a href="classSparkBase.html#abae67e89c2a7e447887510652ceae9e6">More...</a><br /></td></tr>
+<tr class="separator:abae67e89c2a7e447887510652ceae9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a659306803b37e94002eb895d933064e5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a659306803b37e94002eb895d933064e5">GetIMaxAccum</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a659306803b37e94002eb895d933064e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the maximum accumulated I term for Smart Motion in a given slot.  <a href="classSparkBase.html#a659306803b37e94002eb895d933064e5">More...</a><br /></td></tr>
+<tr class="separator:a659306803b37e94002eb895d933064e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3250bf5f252baaa2afecdf5ed10d3bb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ad3250bf5f252baaa2afecdf5ed10d3bb">GetSlot3Placeholder1</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:ad3250bf5f252baaa2afecdf5ed10d3bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value for Slot 3 Placeholder 1 in a given slot.  <a href="classSparkBase.html#ad3250bf5f252baaa2afecdf5ed10d3bb">More...</a><br /></td></tr>
+<tr class="separator:ad3250bf5f252baaa2afecdf5ed10d3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1fef34bfcc0ab5e806b2695c8cd7e0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7f1fef34bfcc0ab5e806b2695c8cd7e0">GetSlot3Placeholder2</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a7f1fef34bfcc0ab5e806b2695c8cd7e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value for Slot 3 Placeholder 2 in a given slot.  <a href="classSparkBase.html#a7f1fef34bfcc0ab5e806b2695c8cd7e0">More...</a><br /></td></tr>
+<tr class="separator:a7f1fef34bfcc0ab5e806b2695c8cd7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a795508d9f08c75c2f0cee54532f1475f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a795508d9f08c75c2f0cee54532f1475f">GetSlot3Placeholder3</a> (uint8_t slot)</td></tr>
+<tr class="memdesc:a795508d9f08c75c2f0cee54532f1475f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the value for Slot 3 Placeholder 3 in a given slot.  <a href="classSparkBase.html#a795508d9f08c75c2f0cee54532f1475f">More...</a><br /></td></tr>
+<tr class="separator:a795508d9f08c75c2f0cee54532f1475f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab790a35f0d759d925494a7f3bb2518cb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ab790a35f0d759d925494a7f3bb2518cb">GetAnalogPositionConversion</a> ()</td></tr>
+<tr class="memdesc:ab790a35f0d759d925494a7f3bb2518cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the analog position conversion factor.  <a href="classSparkBase.html#ab790a35f0d759d925494a7f3bb2518cb">More...</a><br /></td></tr>
+<tr class="separator:ab790a35f0d759d925494a7f3bb2518cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a393485dcf0c23fd91ebd2ca49d9aea68"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a393485dcf0c23fd91ebd2ca49d9aea68">GetAnalogVelocityConversion</a> ()</td></tr>
+<tr class="memdesc:a393485dcf0c23fd91ebd2ca49d9aea68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the analog velocity conversion factor.  <a href="classSparkBase.html#a393485dcf0c23fd91ebd2ca49d9aea68">More...</a><br /></td></tr>
+<tr class="separator:a393485dcf0c23fd91ebd2ca49d9aea68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5115a477ec8f32c3c73184f9bc7c1775"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a5115a477ec8f32c3c73184f9bc7c1775">GetAnalogAverageDepth</a> ()</td></tr>
+<tr class="memdesc:a5115a477ec8f32c3c73184f9bc7c1775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the analog average depth.  <a href="classSparkBase.html#a5115a477ec8f32c3c73184f9bc7c1775">More...</a><br /></td></tr>
+<tr class="separator:a5115a477ec8f32c3c73184f9bc7c1775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a675b6508e15d3906a17d9e05592486c7"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a675b6508e15d3906a17d9e05592486c7">GetAnalogSensorMode</a> ()</td></tr>
+<tr class="memdesc:a675b6508e15d3906a17d9e05592486c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the analog sensor mode.  <a href="classSparkBase.html#a675b6508e15d3906a17d9e05592486c7">More...</a><br /></td></tr>
+<tr class="separator:a675b6508e15d3906a17d9e05592486c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22e47321f307dffe65e6d07c6f2e4d66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a22e47321f307dffe65e6d07c6f2e4d66">GetAnalogInverted</a> ()</td></tr>
+<tr class="memdesc:a22e47321f307dffe65e6d07c6f2e4d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the analog inversion state.  <a href="classSparkBase.html#a22e47321f307dffe65e6d07c6f2e4d66">More...</a><br /></td></tr>
+<tr class="separator:a22e47321f307dffe65e6d07c6f2e4d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a4064bf158a84b2139ceff4d6d50d38"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a0a4064bf158a84b2139ceff4d6d50d38">GetAnalogSampleDelta</a> ()</td></tr>
+<tr class="memdesc:a0a4064bf158a84b2139ceff4d6d50d38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the analog sample delta.  <a href="classSparkBase.html#a0a4064bf158a84b2139ceff4d6d50d38">More...</a><br /></td></tr>
+<tr class="separator:a0a4064bf158a84b2139ceff4d6d50d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116941bb424dede169610390fe9e07a0"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a116941bb424dede169610390fe9e07a0">GetDataPortConfig</a> ()</td></tr>
+<tr class="memdesc:a116941bb424dede169610390fe9e07a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the data port configuration.  <a href="classSparkBase.html#a116941bb424dede169610390fe9e07a0">More...</a><br /></td></tr>
+<tr class="separator:a116941bb424dede169610390fe9e07a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d46ac89726bfd6dcb223fe8d56505b6"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a3d46ac89726bfd6dcb223fe8d56505b6">GetAltEncoderCountsPerRev</a> ()</td></tr>
+<tr class="memdesc:a3d46ac89726bfd6dcb223fe8d56505b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the alternate encoder counts per revolution.  <a href="classSparkBase.html#a3d46ac89726bfd6dcb223fe8d56505b6">More...</a><br /></td></tr>
+<tr class="separator:a3d46ac89726bfd6dcb223fe8d56505b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a247db63ed065077aaaf26e468b67d8ae"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a247db63ed065077aaaf26e468b67d8ae">GetAltEncoderAverageDepth</a> ()</td></tr>
+<tr class="memdesc:a247db63ed065077aaaf26e468b67d8ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the alternate encoder average depth.  <a href="classSparkBase.html#a247db63ed065077aaaf26e468b67d8ae">More...</a><br /></td></tr>
+<tr class="separator:a247db63ed065077aaaf26e468b67d8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26ade95da899864062ae9304c8d9741d"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a26ade95da899864062ae9304c8d9741d">GetAltEncoderSampleDelta</a> ()</td></tr>
+<tr class="memdesc:a26ade95da899864062ae9304c8d9741d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the alternate encoder sample delta.  <a href="classSparkBase.html#a26ade95da899864062ae9304c8d9741d">More...</a><br /></td></tr>
+<tr class="separator:a26ade95da899864062ae9304c8d9741d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b2c3b18547b929693f9557d761043ec"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a6b2c3b18547b929693f9557d761043ec">GetAltEncoderInverted</a> ()</td></tr>
+<tr class="memdesc:a6b2c3b18547b929693f9557d761043ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the alternate encoder inversion state.  <a href="classSparkBase.html#a6b2c3b18547b929693f9557d761043ec">More...</a><br /></td></tr>
+<tr class="separator:a6b2c3b18547b929693f9557d761043ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49de49c52408879c9e374d1409a0a25f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a49de49c52408879c9e374d1409a0a25f">GetAltEncoderPositionFactor</a> ()</td></tr>
+<tr class="memdesc:a49de49c52408879c9e374d1409a0a25f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the alternate encoder position factor.  <a href="classSparkBase.html#a49de49c52408879c9e374d1409a0a25f">More...</a><br /></td></tr>
+<tr class="separator:a49de49c52408879c9e374d1409a0a25f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da69425053ff4595d4b7b859ff5725a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a9da69425053ff4595d4b7b859ff5725a">GetAltEncoderVelocityFactor</a> ()</td></tr>
+<tr class="memdesc:a9da69425053ff4595d4b7b859ff5725a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the alternate encoder velocity factor.  <a href="classSparkBase.html#a9da69425053ff4595d4b7b859ff5725a">More...</a><br /></td></tr>
+<tr class="separator:a9da69425053ff4595d4b7b859ff5725a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e1a4825fdb5f06314f75d7de908278"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#ae4e1a4825fdb5f06314f75d7de908278">GetDutyCyclePositionFactor</a> ()</td></tr>
+<tr class="memdesc:ae4e1a4825fdb5f06314f75d7de908278"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the duty cycle position factor.  <a href="classSparkBase.html#ae4e1a4825fdb5f06314f75d7de908278">More...</a><br /></td></tr>
+<tr class="separator:ae4e1a4825fdb5f06314f75d7de908278"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdf7a54e49fb1cd6d6111b653edd9d57"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#acdf7a54e49fb1cd6d6111b653edd9d57">GetDutyCycleVelocityFactor</a> ()</td></tr>
+<tr class="memdesc:acdf7a54e49fb1cd6d6111b653edd9d57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the duty cycle velocity factor.  <a href="classSparkBase.html#acdf7a54e49fb1cd6d6111b653edd9d57">More...</a><br /></td></tr>
+<tr class="separator:acdf7a54e49fb1cd6d6111b653edd9d57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e66ea2aa68d0a3b53f8ef417aa36cd6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a3e66ea2aa68d0a3b53f8ef417aa36cd6">GetDutyCycleInverted</a> ()</td></tr>
+<tr class="memdesc:a3e66ea2aa68d0a3b53f8ef417aa36cd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the duty cycle inversion state.  <a href="classSparkBase.html#a3e66ea2aa68d0a3b53f8ef417aa36cd6">More...</a><br /></td></tr>
+<tr class="separator:a3e66ea2aa68d0a3b53f8ef417aa36cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e7beb42f2c05ba071f4de363be437bb"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a7e7beb42f2c05ba071f4de363be437bb">GetDutyCycleAverageDepth</a> ()</td></tr>
+<tr class="memdesc:a7e7beb42f2c05ba071f4de363be437bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the duty cycle average depth.  <a href="classSparkBase.html#a7e7beb42f2c05ba071f4de363be437bb">More...</a><br /></td></tr>
+<tr class="separator:a7e7beb42f2c05ba071f4de363be437bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fe8e5d989833c585060f0056cfd55f4"><td class="memItemLeft" align="right" valign="top">uint8_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a4fe8e5d989833c585060f0056cfd55f4">GetDutyCyclePrescalar</a> ()</td></tr>
+<tr class="memdesc:a4fe8e5d989833c585060f0056cfd55f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the duty cycle prescalar.  <a href="classSparkBase.html#a4fe8e5d989833c585060f0056cfd55f4">More...</a><br /></td></tr>
+<tr class="separator:a4fe8e5d989833c585060f0056cfd55f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63f73c99f7bd64c120e2919a53d81a31"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a63f73c99f7bd64c120e2919a53d81a31">GetDutyCycleZeroOffset</a> ()</td></tr>
+<tr class="memdesc:a63f73c99f7bd64c120e2919a53d81a31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the duty cycle zero offset.  <a href="classSparkBase.html#a63f73c99f7bd64c120e2919a53d81a31">More...</a><br /></td></tr>
+<tr class="separator:a63f73c99f7bd64c120e2919a53d81a31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classSparkBase.html#a367ea6cd4d09e10dbb483fe3b7ae2fc9">Heartbeat</a> ()</td></tr>
+<tr class="memdesc:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sends a heartbeat signal to keep all SPARK controllers active.  <a href="classSparkBase.html#a367ea6cd4d09e10dbb483fe3b7ae2fc9">More...</a><br /></td></tr>
+<tr class="separator:a367ea6cd4d09e10dbb483fe3b7ae2fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A base class for controlling REV Robotics SPARK motor controllers via CAN bus. </p>
@@ -478,17 +710,27 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">interfaceName</td><td>The name of the CAN interface (e.g., "can0") </td></tr>
-    <tr><td class="paramname">deviceId</td><td>The CAN ID of the SPARK controller controller (0-62) </td></tr>
+    <tr><td class="paramname">deviceId</td><td>The CAN ID of the SPARK controller (0-62) </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if deviceId is greater than 62 </td></tr>
-    <tr><td class="paramname">std::runtime_error</td><td>if socket creation, IOCTL, or binding fails </td></tr>
+    <tr><td class="paramname">std::out_of_range</td><td>if deviceId is greater than 62 </td></tr>
+    <tr><td class="paramname">std::system_error</td><td>if socket creation fails, with detailed error information </td></tr>
+    <tr><td class="paramname">std::runtime_error</td><td>if IOCTL fails or binding to the interface fails, with detailed error information</td></tr>
   </table>
   </dd>
 </dl>
+<p>This constructor attempts to initialize the CAN bus connection. If it fails, it will throw an exception with a detailed error message that includes possible causes and suggested solutions. Common issues that may cause exceptions include:</p><ul>
+<li>Invalid device ID</li>
+<li>CAN modules not loaded</li>
+<li>System resource limitations</li>
+<li>CAN interface not existing</li>
+<li>CAN interface not being up</li>
+<li>CAN bus not initialized</li>
+<li>Interface already bound to another program </li>
+</ul>
 
 </div>
 </div>
@@ -497,6 +739,9 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">SparkBase::~SparkBase </td>
@@ -505,6 +750,11 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p>Destructor for <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a>. </p>
@@ -513,6 +763,25 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="acff5fd763e54be00a0964c702f7d88cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acff5fd763e54be00a0964c702f7d88cc">&#9670;&nbsp;</a></span>BurnFlash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SparkBase::BurnFlash </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Burns the current configuration to the SPARK controller's flash memory. </p>
+
+</div>
+</div>
 <a id="a69571d7b5c5a01f2bca9ee587cf54e76"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a69571d7b5c5a01f2bca9ee587cf54e76">&#9670;&nbsp;</a></span>ClearStickyFaults()</h2>
 
@@ -532,33 +801,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9c19e3b9f3ad536ec6bbe248577d0f9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c19e3b9f3ad536ec6bbe248577d0f9e">&#9670;&nbsp;</a></span>ConfigBurnFlash()</h2>
+<a id="aff021d58e394068c321ec72c49b356eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff021d58e394068c321ec72c49b356eb">&#9670;&nbsp;</a></span>FactoryDefaults()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SparkBase::ConfigBurnFlash </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Burns the current configuration to the SPARK controller's flash memory. </p>
-
-</div>
-</div>
-<a id="a83ba37cd19c79a45541a82ec3473f004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83ba37cd19c79a45541a82ec3473f004">&#9670;&nbsp;</a></span>ConfigFactoryDefaults()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SparkBase::ConfigFactoryDefaults </td>
+          <td class="memname">void SparkBase::FactoryDefaults </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -570,14 +820,14 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a6ec8bd48dd3175b6b04b4e6cf5089dae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ec8bd48dd3175b6b04b4e6cf5089dae">&#9670;&nbsp;</a></span>ConfigFactoryReset()</h2>
+<a id="a63aa59b0de6b6cbed525b505bc7e0050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63aa59b0de6b6cbed525b505bc7e0050">&#9670;&nbsp;</a></span>FactoryReset()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SparkBase::ConfigFactoryReset </td>
+          <td class="memname">void SparkBase::FactoryReset </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -586,6 +836,126 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Performs a factory reset on the SPARK controller. </p>
+
+</div>
+</div>
+<a id="a247db63ed065077aaaf26e468b67d8ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a247db63ed065077aaaf26e468b67d8ae">&#9670;&nbsp;</a></span>GetAltEncoderAverageDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetAltEncoderAverageDepth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the alternate encoder average depth. </p>
+<dl class="section return"><dt>Returns</dt><dd>Alternate encoder average depth as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="a3d46ac89726bfd6dcb223fe8d56505b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d46ac89726bfd6dcb223fe8d56505b6">&#9670;&nbsp;</a></span>GetAltEncoderCountsPerRev()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetAltEncoderCountsPerRev </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the alternate encoder counts per revolution. </p>
+<dl class="section return"><dt>Returns</dt><dd>Alternate encoder counts per revolution as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a6b2c3b18547b929693f9557d761043ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b2c3b18547b929693f9557d761043ec">&#9670;&nbsp;</a></span>GetAltEncoderInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetAltEncoderInverted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the alternate encoder inversion state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Alternate encoder inversion state as bool. </dd></dl>
+
+</div>
+</div>
+<a id="a49de49c52408879c9e374d1409a0a25f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49de49c52408879c9e374d1409a0a25f">&#9670;&nbsp;</a></span>GetAltEncoderPositionFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetAltEncoderPositionFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the alternate encoder position factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Alternate encoder position factor as float. </dd></dl>
+
+</div>
+</div>
+<a id="a26ade95da899864062ae9304c8d9741d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26ade95da899864062ae9304c8d9741d">&#9670;&nbsp;</a></span>GetAltEncoderSampleDelta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetAltEncoderSampleDelta </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the alternate encoder sample delta. </p>
+<dl class="section return"><dt>Returns</dt><dd>Alternate encoder sample delta as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="a9da69425053ff4595d4b7b859ff5725a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9da69425053ff4595d4b7b859ff5725a">&#9670;&nbsp;</a></span>GetAltEncoderVelocityFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetAltEncoderVelocityFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the alternate encoder velocity factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Alternate encoder velocity factor as float. </dd></dl>
 
 </div>
 </div>
@@ -605,7 +975,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the position from the alternate encoder. </p>
-<dl class="section return"><dt>Returns</dt><dd>float The alternate encoder position (ticks) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float The alternate encoder position in ticks </dd></dl>
 
 </div>
 </div>
@@ -625,7 +995,47 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the velocity from the alternate encoder. </p>
-<dl class="section return"><dt>Returns</dt><dd>float The alternate encoder velocity (RPM) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float The alternate encoder velocity in RPM </dd></dl>
+
+</div>
+</div>
+<a id="a5115a477ec8f32c3c73184f9bc7c1775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5115a477ec8f32c3c73184f9bc7c1775">&#9670;&nbsp;</a></span>GetAnalogAverageDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetAnalogAverageDepth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the analog average depth. </p>
+<dl class="section return"><dt>Returns</dt><dd>Analog average depth as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a22e47321f307dffe65e6d07c6f2e4d66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22e47321f307dffe65e6d07c6f2e4d66">&#9670;&nbsp;</a></span>GetAnalogInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetAnalogInverted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the analog inversion state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Analog inversion state as bool. </dd></dl>
 
 </div>
 </div>
@@ -645,7 +1055,67 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the current analog position. </p>
-<dl class="section return"><dt>Returns</dt><dd>float The analog position (ticks) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float The analog position in ticks </dd></dl>
+
+</div>
+</div>
+<a id="ab790a35f0d759d925494a7f3bb2518cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab790a35f0d759d925494a7f3bb2518cb">&#9670;&nbsp;</a></span>GetAnalogPositionConversion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetAnalogPositionConversion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the analog position conversion factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Analog position conversion factor as float. </dd></dl>
+
+</div>
+</div>
+<a id="a0a4064bf158a84b2139ceff4d6d50d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4064bf158a84b2139ceff4d6d50d38">&#9670;&nbsp;</a></span>GetAnalogSampleDelta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetAnalogSampleDelta </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the analog sample delta. </p>
+<dl class="section return"><dt>Returns</dt><dd>Analog sample delta as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a675b6508e15d3906a17d9e05592486c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a675b6508e15d3906a17d9e05592486c7">&#9670;&nbsp;</a></span>GetAnalogSensorMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetAnalogSensorMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the analog sensor mode. </p>
+<dl class="section return"><dt>Returns</dt><dd>Analog sensor mode as uint8_t. </dd></dl>
 
 </div>
 </div>
@@ -665,7 +1135,27 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the current analog velocity. </p>
-<dl class="section return"><dt>Returns</dt><dd>float The analog velocity (RPM) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float The analog velocity in RPM </dd></dl>
+
+</div>
+</div>
+<a id="a393485dcf0c23fd91ebd2ca49d9aea68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a393485dcf0c23fd91ebd2ca49d9aea68">&#9670;&nbsp;</a></span>GetAnalogVelocityConversion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetAnalogVelocityConversion </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the analog velocity conversion factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Analog velocity conversion factor as float. </dd></dl>
 
 </div>
 </div>
@@ -689,23 +1179,83 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a5f326d467902a2e38c2615485077657c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f326d467902a2e38c2615485077657c">&#9670;&nbsp;</a></span>GetAppliedOutput()</h2>
+<a id="aa189418b073ed9a8f2ff0a33e17a6551"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa189418b073ed9a8f2ff0a33e17a6551">&#9670;&nbsp;</a></span>GetClosedLoopRampRate()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float SparkBase::GetAppliedOutput </td>
+          <td class="memname">float SparkBase::GetClosedLoopRampRate </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Retrieves the current applied output. </p>
-<dl class="section return"><dt>Returns</dt><dd>float The applied output, range: [-1.0, 1.0] </dd></dl>
+<p>Get the closed loop ramp rate. </p>
+<dl class="section return"><dt>Returns</dt><dd>Closed loop ramp rate as float. </dd></dl>
+
+</div>
+</div>
+<a id="afda940725806eadafc81ada14687e2ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afda940725806eadafc81ada14687e2ac">&#9670;&nbsp;</a></span>GetClosedLoopVoltageMode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetClosedLoopVoltageMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the closed loop voltage mode. </p>
+<dl class="section return"><dt>Returns</dt><dd>Closed loop voltage mode as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="a89301ed12e35b68726b9ad8eb3771713"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89301ed12e35b68726b9ad8eb3771713">&#9670;&nbsp;</a></span>GetCompensatedNominalVoltage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetCompensatedNominalVoltage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the compensated nominal voltage. </p>
+<dl class="section return"><dt>Returns</dt><dd>Compensated nominal voltage as float. </dd></dl>
+
+</div>
+</div>
+<a id="a32e6d4f3d01e55d3e2e241e2a9cddaf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e6d4f3d01e55d3e2e241e2a9cddaf8">&#9670;&nbsp;</a></span>GetCtrlType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetCtrlType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the control type. </p>
+<dl class="section return"><dt>Returns</dt><dd>Control type as uint8_t. (0 = Duty Cycle, 1 = Velocity, 2 = Voltage, 3 = Position) </dd></dl>
 
 </div>
 </div>
@@ -729,6 +1279,367 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a4c6e9dfe7f6de2fdd507e4999b98e798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c6e9dfe7f6de2fdd507e4999b98e798">&#9670;&nbsp;</a></span>GetCurrentChop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetCurrentChop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current chop value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Current chop as float. </dd></dl>
+
+</div>
+</div>
+<a id="afa07c8ad6b1b617a981eab35717a05a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa07c8ad6b1b617a981eab35717a05a7">&#9670;&nbsp;</a></span>GetCurrentChopCycles()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetCurrentChopCycles </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the current chop cycles. </p>
+<dl class="section return"><dt>Returns</dt><dd>Current chop cycles as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="ad417fdc52ada9b2b13054d42c7f03574"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad417fdc52ada9b2b13054d42c7f03574">&#9670;&nbsp;</a></span>GetD()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetD </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the derivative (D) constant for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Derivative constant as float. </dd></dl>
+
+</div>
+</div>
+<a id="a116941bb424dede169610390fe9e07a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116941bb424dede169610390fe9e07a0">&#9670;&nbsp;</a></span>GetDataPortConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetDataPortConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the data port configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>Data port config as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="a17ef1e95c81234c15d045909972c8589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ef1e95c81234c15d045909972c8589">&#9670;&nbsp;</a></span>GetDFilter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetDFilter </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the DFilter value for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>DFilter value as float. </dd></dl>
+
+</div>
+</div>
+<a id="ab4dfbc5e7aaddcb92d55058238372ab1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4dfbc5e7aaddcb92d55058238372ab1">&#9670;&nbsp;</a></span>GetDutyCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetDutyCycle </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the current applied output. </p>
+<dl class="section return"><dt>Returns</dt><dd>float The applied output, range: [-1.0, 1.0] </dd></dl>
+
+</div>
+</div>
+<a id="a7e7beb42f2c05ba071f4de363be437bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e7beb42f2c05ba071f4de363be437bb">&#9670;&nbsp;</a></span>GetDutyCycleAverageDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetDutyCycleAverageDepth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the duty cycle average depth. </p>
+<dl class="section return"><dt>Returns</dt><dd>Duty cycle average depth as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="a3e66ea2aa68d0a3b53f8ef417aa36cd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e66ea2aa68d0a3b53f8ef417aa36cd6">&#9670;&nbsp;</a></span>GetDutyCycleInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetDutyCycleInverted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the duty cycle inversion state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Duty cycle inversion state as bool. </dd></dl>
+
+</div>
+</div>
+<a id="ae4e1a4825fdb5f06314f75d7de908278"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4e1a4825fdb5f06314f75d7de908278">&#9670;&nbsp;</a></span>GetDutyCyclePositionFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetDutyCyclePositionFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the duty cycle position factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Duty cycle position factor as float. </dd></dl>
+
+</div>
+</div>
+<a id="a4fe8e5d989833c585060f0056cfd55f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fe8e5d989833c585060f0056cfd55f4">&#9670;&nbsp;</a></span>GetDutyCyclePrescalar()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetDutyCyclePrescalar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the duty cycle prescalar. </p>
+<dl class="section return"><dt>Returns</dt><dd>Duty cycle prescalar as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="acdf7a54e49fb1cd6d6111b653edd9d57"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdf7a54e49fb1cd6d6111b653edd9d57">&#9670;&nbsp;</a></span>GetDutyCycleVelocityFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetDutyCycleVelocityFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the duty cycle velocity factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Duty cycle velocity factor as float. </dd></dl>
+
+</div>
+</div>
+<a id="a63f73c99f7bd64c120e2919a53d81a31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63f73c99f7bd64c120e2919a53d81a31">&#9670;&nbsp;</a></span>GetDutyCycleZeroOffset()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetDutyCycleZeroOffset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the duty cycle zero offset. </p>
+<dl class="section return"><dt>Returns</dt><dd>Duty cycle zero offset as float. </dd></dl>
+
+</div>
+</div>
+<a id="a4cbed8d4a522b3b68341aa62e0a995a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cbed8d4a522b3b68341aa62e0a995a6">&#9670;&nbsp;</a></span>GetEncoderAverageDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetEncoderAverageDepth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the encoder average depth. </p>
+<dl class="section return"><dt>Returns</dt><dd>Encoder average depth as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="a8d59d9b9896c53c58bd7554b2dcd5277"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d59d9b9896c53c58bd7554b2dcd5277">&#9670;&nbsp;</a></span>GetEncoderCountsPerRev()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetEncoderCountsPerRev </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the encoder counts per revolution. </p>
+<dl class="section return"><dt>Returns</dt><dd>Encoder counts per revolution as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a7849633249363026a7edc18ddf8e7214"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7849633249363026a7edc18ddf8e7214">&#9670;&nbsp;</a></span>GetEncoderInverted()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetEncoderInverted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the encoder inversion state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Encoder inversion state as bool. </dd></dl>
+
+</div>
+</div>
+<a id="ae1e8ef1015fff4fce944e712e46da21b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1e8ef1015fff4fce944e712e46da21b">&#9670;&nbsp;</a></span>GetEncoderSampleDelta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetEncoderSampleDelta </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the encoder sample delta. </p>
+<dl class="section return"><dt>Returns</dt><dd>Encoder sample delta as uint8_t. </dd></dl>
+
+</div>
+</div>
+<a id="a48af8a467ffd9defc13cbc62ec25a854"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48af8a467ffd9defc13cbc62ec25a854">&#9670;&nbsp;</a></span>GetF()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetF </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the feedforward (F) constant for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Feedforward constant as float. </dd></dl>
+
+</div>
+</div>
 <a id="a9a4b2fd66aa143a3032870863c937ee8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9a4b2fd66aa143a3032870863c937ee8">&#9670;&nbsp;</a></span>GetFaults()</h2>
 
@@ -749,8 +1660,195 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="a7d0e93d51952e5a1e669bd2a4ea76983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d0e93d51952e5a1e669bd2a4ea76983">&#9670;&nbsp;</a></span>GetFeedbackSensorPID0()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetFeedbackSensorPID0 </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the feedback sensor PID0 value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Feedback sensor PID0 as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a404a2884cb32ad6350b6e47be2129ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a404a2884cb32ad6350b6e47be2129ad4">&#9670;&nbsp;</a></span>GetFollowerConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SparkBase::GetFollowerConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the follower configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>Follower configuration as uint32_t. </dd></dl>
+
+</div>
+</div>
+<a id="ade3615c8836d1464cf715522e7ae21de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ade3615c8836d1464cf715522e7ae21de">&#9670;&nbsp;</a></span>GetFollowerID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t SparkBase::GetFollowerID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the follower ID. </p>
+<dl class="section return"><dt>Returns</dt><dd>Follower ID as uint32_t. </dd></dl>
+
+</div>
+</div>
+<a id="a3ab5bdbb29f54ad67a43e40628883052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ab5bdbb29f54ad67a43e40628883052">&#9670;&nbsp;</a></span>GetHallSensorAverageDepth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetHallSensorAverageDepth </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Hall sensor average depth. </p>
+<dl class="section return"><dt>Returns</dt><dd>Hall sensor average depth as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="ad9abe7f4b0bb0de0fad7a350fff5be12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9abe7f4b0bb0de0fad7a350fff5be12">&#9670;&nbsp;</a></span>GetHallSensorSampleRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetHallSensorSampleRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the Hall sensor sample rate. </p>
+<dl class="section return"><dt>Returns</dt><dd>Hall sensor sample rate as float. </dd></dl>
+
+</div>
+</div>
+<a id="aad296fdba4f7017a9a680b9f755a64fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad296fdba4f7017a9a680b9f755a64fd">&#9670;&nbsp;</a></span>GetHardLimitFwdEn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetHardLimitFwdEn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the forward hard limit enable state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Forward hard limit enable state as bool. </dd></dl>
+
+</div>
+</div>
+<a id="aa1b9667fe777434fa670d5cff65f7322"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1b9667fe777434fa670d5cff65f7322">&#9670;&nbsp;</a></span>GetHardLimitRevEn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetHardLimitRevEn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the reverse hard limit enable state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reverse hard limit enable state as bool. </dd></dl>
+
+</div>
+</div>
+<a id="afa5fecb02f54e906e5e76707b0b7e898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa5fecb02f54e906e5e76707b0b7e898">&#9670;&nbsp;</a></span>GetI()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetI </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the integral (I) constant for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Integral constant as float. </dd></dl>
+
+</div>
+</div>
+<a id="afbd4545bb6a9a79a5e7581c410ee4ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbd4545bb6a9a79a5e7581c410ee4ce9">&#9670;&nbsp;</a></span>GetIdleMode() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetIdleMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the idle mode. </p>
+<dl class="section return"><dt>Returns</dt><dd>Idle mode as uint8_t. (0 = Coast, 1 = Brake) </dd></dl>
+
+</div>
+</div>
 <a id="a02d215f45f4b121a2d6d583cd7c956b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02d215f45f4b121a2d6d583cd7c956b6">&#9670;&nbsp;</a></span>GetIdleMode()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a02d215f45f4b121a2d6d583cd7c956b6">&#9670;&nbsp;</a></span>GetIdleMode() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -769,28 +1867,75 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7344499af18ea1f476479f4445c15193"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7344499af18ea1f476479f4445c15193">&#9670;&nbsp;</a></span>GetInvertBrakeIsFollower()</h2>
+<a id="a659306803b37e94002eb895d933064e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a659306803b37e94002eb895d933064e5">&#9670;&nbsp;</a></span>GetIMaxAccum()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">uint8_t SparkBase::GetInvertBrakeIsFollower </td>
+          <td class="memname">float SparkBase::GetIMaxAccum </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Gets the invert, brake, and follower status. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint8_t A bitfield representing the invert, brake, and follower status </dd></dl>
+<p>Get the maximum accumulated I term for Smart Motion in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Maximum I term accumulation as float. </dd></dl>
+
+</div>
+</div>
+<a id="aaf2f13da07d277e71fb2bdd2d52f812c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf2f13da07d277e71fb2bdd2d52f812c">&#9670;&nbsp;</a></span>GetInputDeadband()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetInputDeadband </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the input deadband. </p>
+<dl class="section return"><dt>Returns</dt><dd>Input deadband as float. </dd></dl>
+
+</div>
+</div>
+<a id="a2179d1f98a6d67af6a283eec5d45cd2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2179d1f98a6d67af6a283eec5d45cd2b">&#9670;&nbsp;</a></span>GetInverted() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetInverted </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get whether the motor is inverted. </p>
+<dl class="section return"><dt>Returns</dt><dd>Inverted state as bool. </dd></dl>
 
 </div>
 </div>
 <a id="a906b69943b91d66fd0ba3b318e378471"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a906b69943b91d66fd0ba3b318e378471">&#9670;&nbsp;</a></span>GetInverted()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a906b69943b91d66fd0ba3b318e378471">&#9670;&nbsp;</a></span>GetInverted() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -806,6 +1951,254 @@ Public Member Functions</h2></td></tr>
 
 <p>Checks if the motor is inverted. </p>
 <dl class="section return"><dt>Returns</dt><dd>bool True if the motor is inverted, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ae8403e0e7e80689c3bd7ecea9a625e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8403e0e7e80689c3bd7ecea9a625e0e">&#9670;&nbsp;</a></span>GetIZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetIZone </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the IZone value for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>IZone value as float. </dd></dl>
+
+</div>
+</div>
+<a id="a11b5717c004a54b05c1e7614b9ff99c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11b5717c004a54b05c1e7614b9ff99c4">&#9670;&nbsp;</a></span>GetLimitSwitchFwdPolarity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetLimitSwitchFwdPolarity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the forward limit switch polarity. </p>
+<dl class="section return"><dt>Returns</dt><dd>Forward limit switch polarity as bool. </dd></dl>
+
+</div>
+</div>
+<a id="a1f13e361611730b98f7b0c379f141743"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f13e361611730b98f7b0c379f141743">&#9670;&nbsp;</a></span>GetLimitSwitchRevPolarity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetLimitSwitchRevPolarity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the reverse limit switch polarity. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reverse limit switch polarity as bool. </dd></dl>
+
+</div>
+</div>
+<a id="a8ccb10fb6067d86f0f0465f048a3d344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ccb10fb6067d86f0f0465f048a3d344">&#9670;&nbsp;</a></span>GetMotorKv()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetMotorKv </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the motor Kv rating. </p>
+<dl class="section return"><dt>Returns</dt><dd>Motor Kv as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="ab76695857801c0198f8cab9fd94506e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab76695857801c0198f8cab9fd94506e8">&#9670;&nbsp;</a></span>GetMotorL()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetMotorL </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the motor inductance. </p>
+<dl class="section return"><dt>Returns</dt><dd>Motor inductance as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a822136047edba87ef90f503b78a609e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a822136047edba87ef90f503b78a609e8">&#9670;&nbsp;</a></span>GetMotorR()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetMotorR </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the motor resistance. </p>
+<dl class="section return"><dt>Returns</dt><dd>Motor resistance as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a74eeee5e31e98a028b44548d16f60ca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74eeee5e31e98a028b44548d16f60ca7">&#9670;&nbsp;</a></span>GetMotorType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetMotorType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the motor type. </p>
+<dl class="section return"><dt>Returns</dt><dd>Motor type as uint8_t. (0 = Brushed, 1 = Brushless) </dd></dl>
+
+</div>
+</div>
+<a id="ad051f0dbe8478a8dbba4362e123a7618"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad051f0dbe8478a8dbba4362e123a7618">&#9670;&nbsp;</a></span>GetOutputMax()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetOutputMax </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the output maximum value for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Output maximum value as float. </dd></dl>
+
+</div>
+</div>
+<a id="a1266d928f0de54c768d09d3b19dbeb45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1266d928f0de54c768d09d3b19dbeb45">&#9670;&nbsp;</a></span>GetOutputMin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetOutputMin </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the output minimum value for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Output minimum value as float. </dd></dl>
+
+</div>
+</div>
+<a id="ac377b0c80f240e211e9906d597483f5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac377b0c80f240e211e9906d597483f5c">&#9670;&nbsp;</a></span>GetP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetP </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the proportional (P) constant for a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The PID slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Proportional constant as float. </dd></dl>
+
+</div>
+</div>
+<a id="abb5a04e688a7c3a3131a39e24f353ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb5a04e688a7c3a3131a39e24f353ca3">&#9670;&nbsp;</a></span>GetPolePairs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetPolePairs </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the number of pole pairs. </p>
+<dl class="section return"><dt>Returns</dt><dd>Pole pairs as uint16_t. </dd></dl>
 
 </div>
 </div>
@@ -825,7 +2218,483 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the current position of the motor. </p>
-<dl class="section return"><dt>Returns</dt><dd>float The position (ticks) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float The position in ticks </dd></dl>
+
+</div>
+</div>
+<a id="a5f2d3e0f95076b144cf778ad4c33ca1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f2d3e0f95076b144cf778ad4c33ca1e">&#9670;&nbsp;</a></span>GetPositionConversionFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetPositionConversionFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the position conversion factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Position conversion factor as float. </dd></dl>
+
+</div>
+</div>
+<a id="a69801f2010d3f3ef9dc2e3ac38121843"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69801f2010d3f3ef9dc2e3ac38121843">&#9670;&nbsp;</a></span>GetPositionPIDMaxInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetPositionPIDMaxInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the position PID maximum input. </p>
+<dl class="section return"><dt>Returns</dt><dd>Position PID maximum input as float. </dd></dl>
+
+</div>
+</div>
+<a id="a7bb7efcab2b5799e87909678a6772c19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb7efcab2b5799e87909678a6772c19">&#9670;&nbsp;</a></span>GetPositionPIDMinInput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetPositionPIDMinInput </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the position PID minimum input. </p>
+<dl class="section return"><dt>Returns</dt><dd>Position PID minimum input as float. </dd></dl>
+
+</div>
+</div>
+<a id="a81d16ffb67962c7ce5f76822ee8946ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81d16ffb67962c7ce5f76822ee8946ca">&#9670;&nbsp;</a></span>GetPositionPIDWrapEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetPositionPIDWrapEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the position PID wrap enable state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Position PID wrap enable state as bool. </dd></dl>
+
+</div>
+</div>
+<a id="a091adaa05f1447754d01ebaa6b549d59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a091adaa05f1447754d01ebaa6b549d59">&#9670;&nbsp;</a></span>GetRampRate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetRampRate </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the ramp rate. </p>
+<dl class="section return"><dt>Returns</dt><dd>Ramp rate as float. </dd></dl>
+
+</div>
+</div>
+<a id="ad9bc8a94fda76611e5a9d9f09e7cd1e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9bc8a94fda76611e5a9d9f09e7cd1e1">&#9670;&nbsp;</a></span>GetSensorType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint8_t SparkBase::GetSensorType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the sensor type. </p>
+<dl class="section return"><dt>Returns</dt><dd>Sensor type as uint8_t. (0 = No Sensor, 1 = Hall Sensor, 2 = Encoder) </dd></dl>
+
+</div>
+</div>
+<a id="ad3250bf5f252baaa2afecdf5ed10d3bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3250bf5f252baaa2afecdf5ed10d3bb">&#9670;&nbsp;</a></span>GetSlot3Placeholder1()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSlot3Placeholder1 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the value for Slot 3 Placeholder 1 in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Placeholder value as float. </dd></dl>
+
+</div>
+</div>
+<a id="a7f1fef34bfcc0ab5e806b2695c8cd7e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1fef34bfcc0ab5e806b2695c8cd7e0">&#9670;&nbsp;</a></span>GetSlot3Placeholder2()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSlot3Placeholder2 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the value for Slot 3 Placeholder 2 in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Placeholder value as float. </dd></dl>
+
+</div>
+</div>
+<a id="a795508d9f08c75c2f0cee54532f1475f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a795508d9f08c75c2f0cee54532f1475f">&#9670;&nbsp;</a></span>GetSlot3Placeholder3()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSlot3Placeholder3 </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the value for Slot 3 Placeholder 3 in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Placeholder value as float. </dd></dl>
+
+</div>
+</div>
+<a id="a246773c361dc9bacd9505bebd5ce0b51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a246773c361dc9bacd9505bebd5ce0b51">&#9670;&nbsp;</a></span>GetSmartCurrentConfig()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetSmartCurrentConfig </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the smart current configuration. </p>
+<dl class="section return"><dt>Returns</dt><dd>Smart current config as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a48c1bd657ed85c8db5fba6fc2c88d336"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48c1bd657ed85c8db5fba6fc2c88d336">&#9670;&nbsp;</a></span>GetSmartCurrentFreeLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetSmartCurrentFreeLimit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the smart current free limit. </p>
+<dl class="section return"><dt>Returns</dt><dd>Smart current free limit as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="a2a5e0365655017d3e2559b70ab8b149c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a5e0365655017d3e2559b70ab8b149c">&#9670;&nbsp;</a></span>GetSmartCurrentStallLimit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t SparkBase::GetSmartCurrentStallLimit </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the smart current stall limit. </p>
+<dl class="section return"><dt>Returns</dt><dd>Smart current stall limit as uint16_t. </dd></dl>
+
+</div>
+</div>
+<a id="abae67e89c2a7e447887510652ceae9e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abae67e89c2a7e447887510652ceae9e6">&#9670;&nbsp;</a></span>GetSmartMotionAccelStrategy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSmartMotionAccelStrategy </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the acceleration strategy for Smart Motion in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Acceleration strategy as float. </dd></dl>
+
+</div>
+</div>
+<a id="af09c513d0e3c63d521881b8c95ea04ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af09c513d0e3c63d521881b8c95ea04ac">&#9670;&nbsp;</a></span>GetSmartMotionAllowedClosedLoopError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSmartMotionAllowedClosedLoopError </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the allowed closed-loop error for Smart Motion in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Allowed closed-loop error as float. </dd></dl>
+
+</div>
+</div>
+<a id="a758823fc6b6205364d3ecf2926acb9b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a758823fc6b6205364d3ecf2926acb9b5">&#9670;&nbsp;</a></span>GetSmartMotionMaxAccel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSmartMotionMaxAccel </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the maximum acceleration for Smart Motion in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Maximum acceleration as float. </dd></dl>
+
+</div>
+</div>
+<a id="af93bfbc2aa778e96ee2dd8602448afd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af93bfbc2aa778e96ee2dd8602448afd6">&#9670;&nbsp;</a></span>GetSmartMotionMaxVelocity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSmartMotionMaxVelocity </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the maximum velocity for Smart Motion in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Maximum velocity as float. </dd></dl>
+
+</div>
+</div>
+<a id="a11c95d9e59f882f264567a6473f54eef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11c95d9e59f882f264567a6473f54eef">&#9670;&nbsp;</a></span>GetSmartMotionMinVelOutput()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSmartMotionMinVelOutput </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramname"><em>slot</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the minimum velocity output for Smart Motion in a given slot. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3). </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Minimum velocity output as float. </dd></dl>
+
+</div>
+</div>
+<a id="a6dfaa8fe53e71093ecb7e299f35ffcae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dfaa8fe53e71093ecb7e299f35ffcae">&#9670;&nbsp;</a></span>GetSoftLimitFwd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSoftLimitFwd </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the forward soft limit value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Forward soft limit as float. </dd></dl>
+
+</div>
+</div>
+<a id="aef05a67a1caefbfc73bb40e4856f1410"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef05a67a1caefbfc73bb40e4856f1410">&#9670;&nbsp;</a></span>GetSoftLimitFwdEn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetSoftLimitFwdEn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the forward soft limit enable state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Forward soft limit enable state as bool. </dd></dl>
+
+</div>
+</div>
+<a id="ad04e1e43513be0aa9ff45486ca37646f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad04e1e43513be0aa9ff45486ca37646f">&#9670;&nbsp;</a></span>GetSoftLimitRev()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetSoftLimitRev </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the reverse soft limit value. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reverse soft limit as float. </dd></dl>
+
+</div>
+</div>
+<a id="a7f6c5e69763ad379c2cbbe6bed7e60f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f6c5e69763ad379c2cbbe6bed7e60f4">&#9670;&nbsp;</a></span>GetSoftLimitRevEn()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SparkBase::GetSoftLimitRevEn </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the reverse soft limit enable state. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reverse soft limit enable state as bool. </dd></dl>
 
 </div>
 </div>
@@ -885,7 +2754,27 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Gets the current velocity. </p>
-<dl class="section return"><dt>Returns</dt><dd>float The current velocity (RPM) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>float The current velocity in RPM </dd></dl>
+
+</div>
+</div>
+<a id="a84c521f7dbe8a322fd71a742f3099f28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c521f7dbe8a322fd71a742f3099f28">&#9670;&nbsp;</a></span>GetVelocityConversionFactor()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SparkBase::GetVelocityConversionFactor </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the velocity conversion factor. </p>
+<dl class="section return"><dt>Returns</dt><dd>Velocity conversion factor as float. </dd></dl>
 
 </div>
 </div>
@@ -914,6 +2803,9 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void SparkBase::Heartbeat </td>
@@ -922,9 +2814,14 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Sends a heartbeat signal to keep the SPARK controller active. </p>
+<p>Sends a heartbeat signal to keep all SPARK controllers active. </p>
 
 </div>
 </div>
@@ -1006,12 +2903,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">depth</td><td>The average depth (1-64) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if depth is 0 or greater than 64 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1116,12 +3007,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">delta</td><td>The sample delta (1-255) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if delta is 0 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1281,12 +3166,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if mode is not 0 or 1 </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1310,32 +3189,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">factor</td><td>The conversion factor to apply to raw analog readings </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="a5b7cf7ac0672b17690092cbfe4ccbac7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b7cf7ac0672b17690092cbfe4ccbac7">&#9670;&nbsp;</a></span>SetAppliedOutput()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SparkBase::SetAppliedOutput </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>appliedOutput</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the motor's applied output. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">appliedOutput</td><td>The desired applied output, range: [-1.0, 1.0] </td></tr>
   </table>
   </dd>
 </dl>
@@ -1391,38 +3244,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if mode is not 0, 1, or 2 </td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a id="aa5aaf693e9d7f81bbd1e53e97fc21675"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5aaf693e9d7f81bbd1e53e97fc21675">&#9670;&nbsp;</a></span>SetCommAdvance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SparkBase::SetCommAdvance </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>advance</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sets the commutation advance. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">advance</td><td>The commutation advance value </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1452,8 +3273,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab1a1cff044439ef2c09dffc0ba9d54d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1a1cff044439ef2c09dffc0ba9d54d4">&#9670;&nbsp;</a></span>SetCtrlType()</h2>
+<a id="a1abe910d8e540f849704ae764bd5791d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1abe910d8e540f849704ae764bd5791d">&#9670;&nbsp;</a></span>SetCtrlType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1461,7 +3282,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void SparkBase::SetCtrlType </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4">CtrlType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1472,12 +3293,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>0 for Duty Cycle, 1 for Velocity, 2 for Voltage, 3 for Position </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if type is not 0, 1, 2, or 3 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1530,12 +3345,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">chop</td><td>The current chop limit (0-125 amps) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if chop is greater than 125 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1604,7 +3413,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if slot is greater than 3 </td></tr>
+    <tr><td class="paramname">std::out_of_range</td><td>if slot is greater than 3 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1631,12 +3440,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">config</td><td>0 for Default, 1 for Alternate Encoder Mode </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if config is not 0 or 1 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1686,6 +3489,32 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="afa3c87cd599175fdcc857bbf939eb29b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa3c87cd599175fdcc857bbf939eb29b">&#9670;&nbsp;</a></span>SetDutyCycle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SparkBase::SetDutyCycle </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dutyCycle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the motor's applied output. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dutyCycle</td><td>The desired applied output, range: [-1.0, 1.0] </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a5a2a2e4d1a7996c26a03cac11b31c58d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5a2a2e4d1a7996c26a03cac11b31c58d">&#9670;&nbsp;</a></span>SetDutyCycleAverageDepth()</h2>
 
@@ -1706,12 +3535,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">depth</td><td>The average depth (0-7) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if depth is greater than 7 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1793,12 +3616,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if prescalar is greater than 71 </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1851,12 +3668,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if offset is greater than 1 </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -1880,12 +3691,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">depth</td><td>The average depth (1-64) </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if depth is 0 or greater than 64 </td></tr>
   </table>
   </dd>
 </dl>
@@ -1967,12 +3772,6 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if delta is 0 </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>
@@ -2012,7 +3811,7 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if slot is greater than 3 </td></tr>
+    <tr><td class="paramname">std::out_of_range</td><td>if slot is greater than 3 </td></tr>
   </table>
   </dd>
 </dl>
@@ -2237,15 +4036,15 @@ Public Member Functions</h2></td></tr>
 </dl>
 <dl class="exception"><dt>Exceptions</dt><dd>
   <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if slot is greater than 3 </td></tr>
+    <tr><td class="paramname">std::out_of_range</td><td>if slot is greater than 3 </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="a3f4affd3924792480957d6041977e5cd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f4affd3924792480957d6041977e5cd">&#9670;&nbsp;</a></span>SetIdleMode()</h2>
+<a id="ad1184b8e817e6aefd988b275743b68d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1184b8e817e6aefd988b275743b68d5">&#9670;&nbsp;</a></span>SetIdleMode()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2253,7 +4052,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void SparkBase::SetIdleMode </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232">IdleMode</a>&#160;</td>
           <td class="paramname"><em>mode</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2264,12 +4063,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">mode</td><td>0 for Coast, 1 for Brake </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if mode is not 0 or 1 </td></tr>
   </table>
   </dd>
 </dl>
@@ -2570,8 +4363,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="add557c907a9ca8312a62ddd74f6306b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add557c907a9ca8312a62ddd74f6306b4">&#9670;&nbsp;</a></span>SetMotorType()</h2>
+<a id="ab9fabfd1f4562fa1dc80c20605a1db26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9fabfd1f4562fa1dc80c20605a1db26">&#9670;&nbsp;</a></span>SetMotorType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2579,7 +4372,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void SparkBase::SetMotorType </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2">MotorType</a>&#160;</td>
           <td class="paramname"><em>type</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2590,12 +4383,6 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">type</td><td>0 for Brushed, 1 for Brushless </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if type is not 0 or 1 </td></tr>
   </table>
   </dd>
 </dl>
@@ -2628,7 +4415,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the maximum output for the specified PID slot. </p>
+<p>Sets the output maximum for the specified PID slot. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slot</td><td>The PID slot (0-3) </td></tr>
@@ -2671,7 +4458,7 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Sets the minimum output for the specified PID slot. </p>
+<p>Sets the output minimum for the specified PID slot. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slot</td><td>The PID slot (0-3) </td></tr>
@@ -2719,12 +4506,6 @@ Public Member Functions</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">slot</td><td>The PID slot (0-3) </td></tr>
     <tr><td class="paramname">p</td><td>The proportional gain value </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if slot is greater than 3 </td></tr>
   </table>
   </dd>
 </dl>
@@ -2832,6 +4613,12 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>if maxInput is not a finite number </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -2913,8 +4700,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a81b0e4269edbcf069e8cb7c21ffd330b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81b0e4269edbcf069e8cb7c21ffd330b">&#9670;&nbsp;</a></span>SetSensorType()</h2>
+<a id="a069c509cae2bc34937d285c7d81462f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a069c509cae2bc34937d285c7d81462f6">&#9670;&nbsp;</a></span>SetSensorType()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2922,7 +4709,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="memname">void SparkBase::SetSensorType </td>
           <td>(</td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="SparkBase_8hpp.html#a87ca7b4499ea761999a872674eba32af">SensorType</a>&#160;</td>
           <td class="paramname"><em>sensor</em></td><td>)</td>
           <td></td>
         </tr>
@@ -2936,9 +4723,29 @@ Public Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::invalid_argument</td><td>if sensor is not 0, 1, or 2 </td></tr>
+
+</div>
+</div>
+<a id="adc9612a28cc74c90187096edd133de45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc9612a28cc74c90187096edd133de45">&#9670;&nbsp;</a></span>SetSetpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SparkBase::SetSetpoint </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>setpoint</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the value for the currently set control type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">setpoint</td><td>The desired value </td></tr>
   </table>
   </dd>
 </dl>
@@ -3264,8 +5071,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab5e90e818e8079e74f1bda680e1c8bbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5e90e818e8079e74f1bda680e1c8bbd">&#9670;&nbsp;</a></span>SetSmartMotionMaxAccel()</h2>
+<a id="af34a5795c2f39028956ed8d7c960fb96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af34a5795c2f39028956ed8d7c960fb96">&#9670;&nbsp;</a></span>SetSmartMotionMaxAccel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3280,7 +5087,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>accel</em>&#160;</td>
+          <td class="paramname"><em>maxAccel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3294,7 +5101,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3) </td></tr>
-    <tr><td class="paramname">accel</td><td>The maximum acceleration </td></tr>
+    <tr><td class="paramname">maxAccel</td><td>The maximum acceleration </td></tr>
   </table>
   </dd>
 </dl>
@@ -3307,8 +5114,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="ab7ba05f70cde42a56d7adfe624bb1b8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab7ba05f70cde42a56d7adfe624bb1b8d">&#9670;&nbsp;</a></span>SetSmartMotionMaxVelocity()</h2>
+<a id="a332c7c2eeebc9acef8aa7deb856cc958"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a332c7c2eeebc9acef8aa7deb856cc958">&#9670;&nbsp;</a></span>SetSmartMotionMaxVelocity()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3323,7 +5130,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>velocity</em>&#160;</td>
+          <td class="paramname"><em>maxVel</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -3337,7 +5144,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3) </td></tr>
-    <tr><td class="paramname">velocity</td><td>The maximum velocity </td></tr>
+    <tr><td class="paramname">maxVel</td><td>The maximum velocity </td></tr>
   </table>
   </dd>
 </dl>
@@ -3380,7 +5187,7 @@ Public Member Functions</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">slot</td><td>The Smart Motion slot (0-3) </td></tr>
-    <tr><td class="paramname">minVel</td><td>The minimum velocity output </td></tr>
+    <tr><td class="paramname">minVel</td><td>The minimum velocity </td></tr>
   </table>
   </dd>
 </dl>

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['appliedoutput_417',['AppliedOutput',['../SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a09e3d9177c426455071923e40334f67a',1,'SparkBase.hpp']]]
+  ['burnflash_594',['BurnFlash',['../SparkBase_8hpp.html#a4dc1c37b8ee5fbddbfdf846c741e1a1ca6704c6f53f515c70dc99d4658c0fe9c0',1,'SparkBase.hpp']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['motorcontrol_413',['MotorControl',['../SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13',1,'SparkBase.hpp']]]
+  ['ctrltype_586',['CtrlType',['../SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4',1,'SparkBase.hpp']]]
 ];

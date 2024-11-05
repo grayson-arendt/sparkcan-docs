@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['velocity_279',['Velocity',['../SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a88156d46910a2d733443c339a9231d12',1,'SparkBase.hpp']]],
-  ['voltage_280',['Voltage',['../SparkBase_8hpp.html#afa545a686dd151863cc7f8224d87fa13a4a92fbe41f6463598c39850b8335096c',1,'SparkBase.hpp']]]
+  ['_7esparkbase_373',['~SparkBase',['../classSparkBase.html#a166d0eecac49ff43ba258a06997fa961',1,'SparkBase']]],
+  ['_7esparkflex_374',['~SparkFlex',['../classSparkFlex.html#abbc029c528e237e058eb53dd34b1ebfc',1,'SparkFlex']]],
+  ['_7esparkmax_375',['~SparkMax',['../classSparkMax.html#aed2cbe88066994b82c8b1660006cbefe',1,'SparkMax']]]
 ];
