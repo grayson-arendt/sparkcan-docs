@@ -3292,7 +3292,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Sets the control type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>0 for Duty Cycle, 1 for Velocity, 2 for Voltage, 3 for Position </td></tr>
+    <tr><td class="paramname">type</td><td>CtrlType::DutyCycle for Duty Cycle, CtrlType::Velocity for Velocity, CtrlType::Voltage for Voltage, CtrlType::Position for Position </td></tr>
   </table>
   </dd>
 </dl>
@@ -4062,7 +4062,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Sets the idle mode. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">mode</td><td>0 for Coast, 1 for Brake </td></tr>
+    <tr><td class="paramname">mode</td><td><a class="el" href="SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232aa10c257fd8d439dc9bf8dec4810a02c4">IdleMode::kCoast</a> for Coast, <a class="el" href="SparkBase_8hpp.html#aaddbbd1cae3cf2e27937b5fca26ff232a29c8a34cacae630b3d26a083c11f51d0">IdleMode::kBrake</a> for Brake </td></tr>
   </table>
   </dd>
 </dl>
@@ -4382,7 +4382,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Sets the motor type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">type</td><td>0 for Brushed, 1 for Brushless </td></tr>
+    <tr><td class="paramname">type</td><td><a class="el" href="SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2a01adff00ed2f8c27c788daf2f1b7696e">MotorType::kBrushed</a> for Brushed, <a class="el" href="SparkBase_8hpp.html#a582234b0c15ab7ba48e3ddd16e7a41d2abecca8b97e2afbaeac5a8b8023d6babd">MotorType::kBrushless</a> for Brushless </td></tr>
   </table>
   </dd>
 </dl>
@@ -4719,7 +4719,7 @@ Static Public Member Functions</h2></td></tr>
 <p>Sets the sensor type. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">sensor</td><td>0 for No Sensor, 1 for Hall Sensor, 2 for Encoder </td></tr>
+    <tr><td class="paramname">sensor</td><td>SensorType::NoSensor for No Sensor, SensorType::HallSensor for Hall Sensor, SensorType::Encoder for Encoder </td></tr>
   </table>
   </dd>
 </dl>
