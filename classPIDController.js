@@ -35,7 +35,7 @@ var classPIDController =
     [ "SetPositionPIDMaxInput", "classPIDController.html#a6dad93acb5b7f75b95632be43b628b4c", null ],
     [ "SetPositionPIDMinInput", "classPIDController.html#a0691a1bd5d846d6bdc1d35769df95244", null ],
     [ "SetPositionPIDWrapEnable", "classPIDController.html#a50309a0df0165b4067bfbb39e82d88e1", null ],
-    [ "SetReference", "classPIDController.html#a7f6c185d4f296297095c4deec17b631f", null ],
+    [ "SetReference", "classPIDController.html#a49850249a570738cc9f66412227cddf5", null ],
     [ "SetSlot3Placeholder1", "classPIDController.html#ac88c20ca2eada05274acec7ae5667fbd", null ],
     [ "SetSlot3Placeholder2", "classPIDController.html#a7c73a75be7e39fe1255dfc06cc860fd5", null ],
     [ "SetSlot3Placeholder3", "classPIDController.html#ac8e18a56ab7057d2f48f506b82bd07bf", null ],

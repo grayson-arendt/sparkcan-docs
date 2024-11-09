@@ -67,7 +67,7 @@ var searchData=
   ['setpositionpidmininput_332',['SetPositionPIDMinInput',['../classPIDController.html#a0691a1bd5d846d6bdc1d35769df95244',1,'PIDController::SetPositionPIDMinInput()'],['../classSparkBase.html#a9a50265d0d3b7569992ab4a1eaf72436',1,'SparkBase::SetPositionPIDMinInput()']]],
   ['setpositionpidwrapenable_333',['SetPositionPIDWrapEnable',['../classPIDController.html#a50309a0df0165b4067bfbb39e82d88e1',1,'PIDController::SetPositionPIDWrapEnable()'],['../classSparkBase.html#a2b233822f96a574034181efedef35407',1,'SparkBase::SetPositionPIDWrapEnable(bool enable)']]],
   ['setramprate_334',['SetRampRate',['../classSparkBase.html#a63260408deeaa3c79e92d3ccfc5d0468',1,'SparkBase']]],
-  ['setreference_335',['SetReference',['../classPIDController.html#a7f6c185d4f296297095c4deec17b631f',1,'PIDController']]],
+  ['setreference_335',['SetReference',['../classPIDController.html#a49850249a570738cc9f66412227cddf5',1,'PIDController']]],
   ['setsensortype_336',['SetSensorType',['../classSparkBase.html#a069c509cae2bc34937d285c7d81462f6',1,'SparkBase']]],
   ['setsetpoint_337',['SetSetpoint',['../classSparkBase.html#adc9612a28cc74c90187096edd133de45',1,'SparkBase']]],
   ['setslot3placeholder1_338',['SetSlot3Placeholder1',['../classPIDController.html#ac88c20ca2eada05274acec7ae5667fbd',1,'PIDController::SetSlot3Placeholder1()'],['../classSparkBase.html#af2fd39e355a89cd769c14f4fc9373fdd',1,'SparkBase::SetSlot3Placeholder1()']]],

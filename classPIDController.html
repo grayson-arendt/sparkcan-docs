@@ -100,8 +100,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afdc4b6d49fd1580da9af9708070e98fd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPIDController.html#afdc4b6d49fd1580da9af9708070e98fd">PIDController</a> (<a class="el" href="classSparkBase.html">SparkBase</a> &amp;base)</td></tr>
 <tr class="memdesc:afdc4b6d49fd1580da9af9708070e98fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a <a class="el" href="classPIDController.html" title="A class for configuring and controlling PID for SPARK motor controllers.">PIDController</a> from a <a class="el" href="classSparkBase.html" title="A base class for controlling REV Robotics SPARK motor controllers via CAN bus.">SparkBase</a> object.  <a href="classPIDController.html#afdc4b6d49fd1580da9af9708070e98fd">More...</a><br /></td></tr>
 <tr class="separator:afdc4b6d49fd1580da9af9708070e98fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f6c185d4f296297095c4deec17b631f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPIDController.html#a7f6c185d4f296297095c4deec17b631f">SetReference</a> (float setpoint, uint8_t controlType)</td></tr>
-<tr class="separator:a7f6c185d4f296297095c4deec17b631f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49850249a570738cc9f66412227cddf5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPIDController.html#a49850249a570738cc9f66412227cddf5">SetReference</a> (float setpoint, <a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4">CtrlType</a> controlType)</td></tr>
+<tr class="memdesc:a49850249a570738cc9f66412227cddf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the controller reference value based on the selected control mode.  <a href="classPIDController.html#a49850249a570738cc9f66412227cddf5">More...</a><br /></td></tr>
+<tr class="separator:a49850249a570738cc9f66412227cddf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a140f5833d776903f8709fc642ab4aa92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPIDController.html#a140f5833d776903f8709fc642ab4aa92">SetFeedbackDevice</a> (uint16_t sensor)</td></tr>
 <tr class="memdesc:a140f5833d776903f8709fc642ab4aa92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the feedback device for the PID controller.  <a href="classPIDController.html#a140f5833d776903f8709fc642ab4aa92">More...</a><br /></td></tr>
 <tr class="separator:a140f5833d776903f8709fc642ab4aa92"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1245,8 +1246,8 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a7f6c185d4f296297095c4deec17b631f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f6c185d4f296297095c4deec17b631f">&#9670;&nbsp;</a></span>SetReference()</h2>
+<a id="a49850249a570738cc9f66412227cddf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49850249a570738cc9f66412227cddf5">&#9670;&nbsp;</a></span>SetReference()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1260,7 +1261,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">uint8_t&#160;</td>
+          <td class="paramtype"><a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4">CtrlType</a>&#160;</td>
           <td class="paramname"><em>controlType</em>&#160;</td>
         </tr>
         <tr>
@@ -1270,6 +1271,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Set the controller reference value based on the selected control mode. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">controlType</td><td><a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4a4f453c207a14a8ad3ce721d2503796c8">CtrlType::kDutyCycle</a> for Duty Cycle, <a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4a9a9a92e15a32d7c384364212970f5ba8">CtrlType::kVelocity</a> for Velocity, <a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4a68a2cec8e5690a1515c66fc6d0356ee3">CtrlType::kVoltage</a> for Voltage, <a class="el" href="SparkBase_8hpp.html#a89ef9af35734546cb612abee6ba564e4aea78f90b3c3afd64e139a391d6fdd88a">CtrlType::kPosition</a> for Position </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
